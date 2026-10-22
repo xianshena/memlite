@@ -1,0 +1,16 @@
+{
+  "n_counterfactual_pairs": 200,
+  "original_accuracy": 1.0,
+  "swapped_accuracy": 1.0,
+  "both_correct_and_flip": 1.0,
+  "clear_memory_forced_accuracy": 0.5,
+  "candidate_permutation_probability_max_abs_diff": 2.9785092920064926e-05,
+  "unknown_n": 2000,
+  "unknown_forced_accuracy": 0.501,
+  "unknown_mean_abs_p_minus_half": 0.024389600910246372,
+  "unknown_maxprob_ge_0_9_fraction": 0.0,
+  "unknown_binary_nll": 0.697371713601215,
+  "unknown_binary_brier": 0.25209961196617675,
+  "all_nonmemory_current_fields_equal": true,
+  "feedback_sentinel_equal": true
+}

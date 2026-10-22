@@ -1,0 +1,9 @@
+{
+  "n": 100,
+  "seeds": [
+    0,
+    99
+  ],
+  "sha256": "d8488d332350f5756e407dc28a9795971b67fc641fbf2dbcba37bc375b433b2d",
+  "file": "object_memory_data/pilot.jsonl"
+}

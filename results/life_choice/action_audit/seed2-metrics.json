@@ -1,0 +1,283 @@
+{
+  "seed": 2,
+  "parameters": 308487175,
+  "weight_file_sha256": "89ad8ad2ab8ae8222b0b2d2645b6f490e180240b85f6fd48e61214e558c5f18e",
+  "source_data_archive_provenance_verified": true,
+  "reconstruction": {
+    "runtime_numpy": "1.26.4",
+    "generator_numpy": "2.4.5",
+    "numeric_atol": 2e-06,
+    "numeric_rtol": 0,
+    "max_abs_error": {
+      "features": 5.960464477539063e-08,
+      "utilities": 2.384185791015625e-07,
+      "outcomes": 0.0
+    },
+    "frozen_model_input_bytes_changed": false,
+    "mask_equal_exactly": true
+  },
+  "no_training_or_temperature_fit": true,
+  "model_execution_device": "CUDA",
+  "test_repeat_purpose": "fixed final-weight verification and physical execution audit; no model selection",
+  "n": 2000,
+  "arrived": 2000,
+  "completed": 2000,
+  "mean_realized_simulator_reward": 1.2248761098705707,
+  "mean_myopic_simulator_reward": 1.1337349967971364,
+  "known_choice_ece_15_equal_frequency": 0.026017962254975976,
+  "ece_bins": [
+    {
+      "n": 127,
+      "accuracy": 0.5748031496062992,
+      "mean_confidence": 0.7233791947364807
+    },
+    {
+      "n": 127,
+      "accuracy": 0.8267716535433071,
+      "mean_confidence": 0.9518790245056152
+    },
+    {
+      "n": 127,
+      "accuracy": 0.9291338582677166,
+      "mean_confidence": 0.9837551116943359
+    },
+    {
+      "n": 127,
+      "accuracy": 0.968503937007874,
+      "mean_confidence": 0.9880085587501526
+    },
+    {
+      "n": 127,
+      "accuracy": 0.984251968503937,
+      "mean_confidence": 0.9900814294815063
+    },
+    {
+      "n": 127,
+      "accuracy": 0.984251968503937,
+      "mean_confidence": 0.9917262196540833
+    },
+    {
+      "n": 127,
+      "accuracy": 0.9921259842519685,
+      "mean_confidence": 0.9931452870368958
+    },
+    {
+      "n": 127,
+      "accuracy": 1.0,
+      "mean_confidence": 0.994372546672821
+    },
+    {
+      "n": 127,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9953839778900146
+    },
+    {
+      "n": 127,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9960986971855164
+    },
+    {
+      "n": 126,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9967482089996338
+    },
+    {
+      "n": 126,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9971063137054443
+    },
+    {
+      "n": 126,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9973293542861938
+    },
+    {
+      "n": 126,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9975827932357788
+    },
+    {
+      "n": 126,
+      "accuracy": 1.0,
+      "mean_confidence": 0.9981623888015747
+    }
+  ],
+  "variant_choice": {
+    "daily": {
+      "n": 1600,
+      "successes": 1506,
+      "accuracy": 0.94125,
+      "ci95": [
+        0.9286360751665358,
+        0.9517501950813009
+      ]
+    },
+    "counterfactual": {
+      "n": 300,
+      "successes": 300,
+      "accuracy": 1.0,
+      "ci95": [
+        0.9873570287754538,
+        0.9999999999999998
+      ]
+    }
+  },
+  "unknown_known_utility_tie_optimality": 1.0,
+  "unknown_hidden_control_test_subset": {
+    "n": 100,
+    "successes": 45,
+    "accuracy": 0.45,
+    "ci95": [
+      0.3561453797951198,
+      0.5475539700255787
+    ],
+    "binary_nll": 0.6971807519565923,
+    "binary_brier": 0.25201887557486397,
+    "mean_abs_p_minus_half": 0.026456815600395204
+  },
+  "decision_batch_latency": [
+    {
+      "n": 64,
+      "seconds": 0.1260056959999929
+    },
+    {
+      "n": 64,
+      "seconds": 0.05786390400135133
+    },
+    {
+      "n": 64,
+      "seconds": 0.05629788800069946
+    },
+    {
+      "n": 64,
+      "seconds": 0.0562162559999706
+    },
+    {
+      "n": 64,
+      "seconds": 0.056243807999635465
+    },
+    {
+      "n": 64,
+      "seconds": 0.056123551999917254
+    },
+    {
+      "n": 64,
+      "seconds": 0.05613843199898838
+    },
+    {
+      "n": 64,
+      "seconds": 0.05623369599925354
+    },
+    {
+      "n": 64,
+      "seconds": 0.05599894399892946
+    },
+    {
+      "n": 64,
+      "seconds": 0.05613279999852239
+    },
+    {
+      "n": 64,
+      "seconds": 0.05619516799924895
+    },
+    {
+      "n": 64,
+      "seconds": 0.05618393599979754
+    },
+    {
+      "n": 64,
+      "seconds": 0.05612239999936719
+    },
+    {
+      "n": 64,
+      "seconds": 0.05596905600032187
+    },
+    {
+      "n": 64,
+      "seconds": 0.05616320000081032
+    },
+    {
+      "n": 64,
+      "seconds": 0.056267391999426764
+    },
+    {
+      "n": 64,
+      "seconds": 0.0560713279992342
+    },
+    {
+      "n": 64,
+      "seconds": 0.05620511999950395
+    },
+    {
+      "n": 64,
+      "seconds": 0.056171680000261404
+    },
+    {
+      "n": 64,
+      "seconds": 0.056165664000218385
+    },
+    {
+      "n": 64,
+      "seconds": 0.05618412799958605
+    },
+    {
+      "n": 64,
+      "seconds": 0.05606553600046027
+    },
+    {
+      "n": 64,
+      "seconds": 0.05617913599962776
+    },
+    {
+      "n": 64,
+      "seconds": 0.05602060800083564
+    },
+    {
+      "n": 64,
+      "seconds": 0.056173184000726906
+    },
+    {
+      "n": 64,
+      "seconds": 0.05603660799897625
+    },
+    {
+      "n": 64,
+      "seconds": 0.05597344000125304
+    },
+    {
+      "n": 64,
+      "seconds": 0.05618364799920528
+    },
+    {
+      "n": 64,
+      "seconds": 0.05620556800022314
+    },
+    {
+      "n": 64,
+      "seconds": 0.05622259199844848
+    },
+    {
+      "n": 64,
+      "seconds": 0.05615558399949805
+    },
+    {
+      "n": 16,
+      "seconds": 0.047200768000038806
+    }
+  ],
+  "selected_daily_activities": {
+    "drink": 137,
+    "cook": 158,
+    "eat": 150,
+    "sleep": 161,
+    "rest": 137,
+    "toilet": 159,
+    "wash": 56,
+    "shower": 182,
+    "work": 79,
+    "read": 182,
+    "exercise": 78,
+    "entertainment": 121
+  },
+  "completion_scope": "BFS navigation, known preconditions and abstract activity simulator; not learned motor control"
+}

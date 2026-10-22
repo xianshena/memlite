@@ -1,0 +1,5 @@
+# Historical GPU runtime note, NOT a complete install recipe or lock file.
+# NVIDIA Torch: 2.3.0a0+6ddf5cf85e.nv24.04, CUDA 12.2, Linux/aarch64, BF16.
+# Obtain a matching supported Torch build separately; no Torch/CUDA binaries are redistributed.
+# The historical GPU environment used:
+numpy==1.26.4

@@ -1,0 +1,3 @@
+# Optional NumPy household environment and frozen-data audits.
+# Not needed for the pure-standard-library object-memory example.
+numpy==2.3.5

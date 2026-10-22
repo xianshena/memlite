@@ -1,0 +1,14 @@
+{
+  "task": "100sqm-embodied-needs-experience-choice",
+  "date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "status": "REGISTERED_BEFORE_GPU_TRAINING",
+  "user_approved": {"parameter_scale": "approximately 300 million", "device": "user GPU only", "minimum_epochs": 3},
+  "scene": {"area_m2": 100, "extent_m": [10,10,2.6], "observations": "structured numerical; no real video/hormones"},
+  "dataset": {"train": 10000, "validation": 1000, "test": 2000, "group": ["episode", "subject", "scene_geometry", "object_cohort"], "mix": {"daily": 0.8, "experience_pair": 0.15, "unknown": 0.05}},
+  "architecture": {"kind": "noncausal numerical relation encoder", "width": 1024, "ff_width": 2816, "depth": 24, "heads": 16, "tokens": "body, cue, world, 12 candidates", "candidate_position_encoding": false, "text_generation": false, "random_initialization": true},
+  "training": {"seeds": [0,1,2], "epochs_per_seed": 12, "batch_size": 128, "optimizer": "AdamW", "learning_rate": 0.0001, "weight_decay": 0.05, "dropout": 0.1, "clip_grad_norm": 1.0, "precision": "CUDA BF16 autocast with FP32 master weights and optimizer", "cpu_fallback": false, "wall_time_limit_seconds": null},
+  "loss": {"formula": "tie-aware candidate cross entropy + 0.25 Huber utility + 0.1 Huber post-action need delta", "unknown_tie": "uniform over best tied legal candidates; no arbitrary argmax target"},
+  "evaluation": {"checkpoint": "final scheduled epoch; no test-based tuning", "validation": "each epoch", "test": "after all 12 epochs only", "counterfactual_pairs": 200, "no_experience_trials": 2000, "controls": ["history feedback exchange", "cleared memory", "candidate permutation", "subject-scoped memory", "hidden truth input isolation"], "metrics": ["tie-aware accuracy", "utility regret", "legal arrival and completion", "need delta error", "NLL", "Brier", "unknown uncertainty", "memory and latency"]},
+  "boundaries": ["No real robot actuation", "No paid APIs", "No language model download", "No Jev or RLCD reproduction", "Large size is user-selected and not evidence of superiority", "Offline supervised simulator learning is not online reinforcement learning", "Previous object_memory data and prior training sources/checkpoints preserved"]
+}

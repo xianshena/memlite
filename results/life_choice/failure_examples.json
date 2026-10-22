@@ -1,0 +1,1801 @@
+{
+  "selection": "Up to five largest positive teacher-regret failures per seed; tied alternative choices are not failures; no invented examples.",
+  "seeds": {
+    "seed0": [
+      {
+        "episode_seed": 201324,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 5,
+        "selected_activity": "entertainment",
+        "teacher_best_indices": [
+          10
+        ],
+        "teacher_best_activities": [
+          "drink"
+        ],
+        "teacher_selected_utility": 0.7128393650054932,
+        "teacher_best_utility": 1.338622808456421,
+        "utility_regret": 0.6257834434509277,
+        "probabilities": [
+          0.0,
+          0.29421356320381165,
+          0.000502348062582314,
+          0.0009896056726574898,
+          0.006996892858296633,
+          0.6871275901794434,
+          0.0009623756632208824,
+          0.0020513241179287434,
+          0.0018872650107368827,
+          0.0022476017475128174,
+          0.002786280121654272,
+          0.00023518310626968741
+        ],
+        "body_needs": [
+          0.8603549599647522,
+          0.2362683117389679,
+          0.05781345069408417,
+          0.07249337434768677,
+          0.22757744789123535,
+          0.24826277792453766
+        ],
+        "external_cues": [
+          0.0,
+          0.7475467920303345,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_observed_memory_mean": 0.9238995909690857,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              9.5,
+              0.5,
+              0.0
+            ],
+            [
+              8.5,
+              0.5,
+              0.0
+            ],
+            [
+              8.5,
+              1.5,
+              0.0
+            ],
+            [
+              8.5,
+              2.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.8603549599647522,
+            0.2362683117389679,
+            0.0978134498000145,
+            0.07249337434768677,
+            0.22757744789123535,
+            0.0
+          ],
+          "feedback": 0.9197015166282654,
+          "realized_reward": 0.7101106587201357,
+          "myopic_realized_reward": 0.7101106587201357,
+          "planning_value": 0.0,
+          "action": "entertainment",
+          "destination": [
+            8.5,
+            2.5,
+            0.75
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 200235,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 5,
+        "selected_activity": "rest",
+        "teacher_best_indices": [
+          3
+        ],
+        "teacher_best_activities": [
+          "sleep"
+        ],
+        "teacher_selected_utility": 1.002947211265564,
+        "teacher_best_utility": 1.2952680587768555,
+        "utility_regret": 0.2923208475112915,
+        "probabilities": [
+          0.0004353315744083375,
+          0.000857585808262229,
+          0.0,
+          0.4189588129520416,
+          0.0004949497524648905,
+          0.572648823261261,
+          0.0022021769545972347,
+          0.0003561011981219053,
+          0.0006956578581593931,
+          0.0017690053209662437,
+          0.0012293349718675017,
+          0.00035214907256886363
+        ],
+        "body_needs": [
+          0.30235737562179565,
+          0.19661226868629456,
+          0.8625620007514954,
+          0.3214689791202545,
+          0.14840489625930786,
+          0.07380789518356323
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8458929061889648
+        ],
+        "selected_observed_memory_mean": 0.0,
+        "selected_observed_memory_known": false,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              5.5,
+              4.5,
+              0.0
+            ],
+            [
+              6.5,
+              4.5,
+              0.0
+            ],
+            [
+              7.5,
+              4.5,
+              0.0
+            ],
+            [
+              8.5,
+              4.5,
+              0.0
+            ],
+            [
+              8.5,
+              5.5,
+              0.0
+            ],
+            [
+              8.5,
+              6.5,
+              0.0
+            ],
+            [
+              8.5,
+              7.5,
+              0.0
+            ],
+            [
+              8.5,
+              8.5,
+              0.0
+            ],
+            [
+              8.5,
+              9.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.30235737562179565,
+            0.19661226868629456,
+            0.5125620365142822,
+            0.3214689791202545,
+            0.14840489625930786,
+            0.0
+          ],
+          "feedback": 0.6922794580459595,
+          "realized_reward": 1.45292891395092,
+          "myopic_realized_reward": 1.45292891395092,
+          "planning_value": 0.0,
+          "action": "rest",
+          "destination": [
+            8.5,
+            9.5,
+            0.5
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201712,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 9,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          5
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.48977652192115784,
+        "teacher_best_utility": 0.7741159200668335,
+        "utility_regret": 0.28433939814567566,
+        "probabilities": [
+          0.000577721162699163,
+          0.000933556817471981,
+          0.004683144390583038,
+          0.00034381987643428147,
+          0.0004699460696429014,
+          0.034914370626211166,
+          0.0032766673248261213,
+          0.0006679281359538436,
+          0.0006316760554909706,
+          0.9500073790550232,
+          0.0,
+          0.0034938384778797626
+        ],
+        "body_needs": [
+          0.2896210253238678,
+          0.1705130934715271,
+          0.517659068107605,
+          0.3045993149280548,
+          0.14490869641304016,
+          0.2413589358329773
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8808803558349609
+        ],
+        "selected_observed_memory_mean": 0.7835080027580261,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              6.5,
+              3.5,
+              0.0
+            ],
+            [
+              6.5,
+              4.5,
+              0.0
+            ],
+            [
+              5.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.2896210253238678,
+            0.1705130934715271,
+            0.517659068107605,
+            0.3045993149280548,
+            0.0,
+            0.2413589358329773
+          ],
+          "feedback": 0.7848593592643738,
+          "realized_reward": 0.49065490874648093,
+          "myopic_realized_reward": 0.49065490874648093,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            3.5,
+            6.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201675,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 3,
+        "selected_activity": "rest",
+        "teacher_best_indices": [
+          2
+        ],
+        "teacher_best_activities": [
+          "sleep"
+        ],
+        "teacher_selected_utility": 1.5207666158676147,
+        "teacher_best_utility": 1.7584959268569946,
+        "utility_regret": 0.23772931098937988,
+        "probabilities": [
+          6.952747207833454e-05,
+          0.0,
+          0.016489382833242416,
+          0.9799861311912537,
+          5.3189687605481595e-05,
+          0.00026738247834146023,
+          3.0442164643318392e-05,
+          0.0020455424673855305,
+          0.00024954110267572105,
+          0.0006372255738824606,
+          0.0001208049216074869,
+          5.0867391109932214e-05
+        ],
+        "body_needs": [
+          0.04264411702752113,
+          0.06661943346261978,
+          0.813125729560852,
+          0.32218438386917114,
+          0.0011688921367749572,
+          0.10273746401071548
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7184674143791199
+        ],
+        "selected_observed_memory_mean": 0.7752535343170166,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              6.5,
+              6.5,
+              0.0
+            ],
+            [
+              7.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.04264411702752113,
+            0.06661943346261978,
+            0.46312573552131653,
+            0.32218438386917114,
+            0.0011688921367749572,
+            0.0
+          ],
+          "feedback": 0.8201154470443726,
+          "realized_reward": 1.549926820874214,
+          "myopic_realized_reward": 1.549926820874214,
+          "planning_value": 0.0,
+          "action": "rest",
+          "destination": [
+            7.5,
+            6.5,
+            0.5
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 200648,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 1,
+        "selected_activity": "shower",
+        "teacher_best_indices": [
+          3
+        ],
+        "teacher_best_activities": [
+          "eat"
+        ],
+        "teacher_selected_utility": 0.4748271107673645,
+        "teacher_best_utility": 0.6950588822364807,
+        "utility_regret": 0.2202317714691162,
+        "probabilities": [
+          0.005400241818279028,
+          0.4809872508049011,
+          0.0015088262734934688,
+          0.21059732139110565,
+          0.002538821892812848,
+          0.2943499982357025,
+          0.0016451432602480054,
+          0.001411097007803619,
+          0.0,
+          0.000388798100175336,
+          0.0007024527294561267,
+          0.0004700282297562808
+        ],
+        "body_needs": [
+          0.22324928641319275,
+          0.3297290503978729,
+          0.11379535496234894,
+          0.2977285385131836,
+          0.0722791850566864,
+          0.28874748945236206
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.28612595796585083,
+          0.9817090034484863,
+          0.0,
+          0.0
+        ],
+        "selected_observed_memory_mean": 0.6137655377388,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              0.5,
+              7.5,
+              0.0
+            ],
+            [
+              0.5,
+              8.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.22324928641319275,
+            0.3297290503978729,
+            0.053795356303453445,
+            0.2977285385131836,
+            0.0,
+            0.2087474912405014
+          ],
+          "feedback": 0.6070473194122314,
+          "realized_reward": 0.47046026262640955,
+          "myopic_realized_reward": 0.47046026262640955,
+          "planning_value": 0.0,
+          "action": "shower",
+          "destination": [
+            0.5,
+            8.5,
+            1.65
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      }
+    ],
+    "seed1": [
+      {
+        "episode_seed": 201712,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 9,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          5
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.48977652192115784,
+        "teacher_best_utility": 0.7741159200668335,
+        "utility_regret": 0.28433939814567566,
+        "probabilities": [
+          0.0009703992982394993,
+          0.0009867813205346465,
+          0.003970898222178221,
+          0.0006602794164791703,
+          0.0009978563757613301,
+          0.0990939512848854,
+          0.0035367212258279324,
+          0.0011797054903581738,
+          0.0009978563757613301,
+          0.8832149505615234,
+          0.0,
+          0.004390482325106859
+        ],
+        "body_needs": [
+          0.2896210253238678,
+          0.1705130934715271,
+          0.517659068107605,
+          0.3045993149280548,
+          0.14490869641304016,
+          0.2413589358329773
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8808803558349609
+        ],
+        "selected_observed_memory_mean": 0.7835080027580261,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              6.5,
+              3.5,
+              0.0
+            ],
+            [
+              6.5,
+              4.5,
+              0.0
+            ],
+            [
+              5.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.2896210253238678,
+            0.1705130934715271,
+            0.517659068107605,
+            0.3045993149280548,
+            0.0,
+            0.2413589358329773
+          ],
+          "feedback": 0.7848593592643738,
+          "realized_reward": 0.49065490874648093,
+          "myopic_realized_reward": 0.49065490874648093,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            3.5,
+            6.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201666,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 8,
+        "selected_activity": "read",
+        "teacher_best_indices": [
+          10
+        ],
+        "teacher_best_activities": [
+          "shower"
+        ],
+        "teacher_selected_utility": 0.776946485042572,
+        "teacher_best_utility": 1.0253357887268066,
+        "utility_regret": 0.24838930368423462,
+        "probabilities": [
+          0.0014216559939086437,
+          0.0036506408359855413,
+          0.0011596746044233441,
+          0.004315933212637901,
+          0.0016118469648063183,
+          0.0,
+          0.0021680693607777357,
+          0.0012715228367596865,
+          0.6984121799468994,
+          0.0,
+          0.28598856925964355,
+          0.0
+        ],
+        "body_needs": [
+          0.03428864851593971,
+          0.02400745451450348,
+          0.029382290318608284,
+          0.20134557783603668,
+          0.5732257962226868,
+          0.05526076257228851
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.977239727973938
+        ],
+        "selected_observed_memory_mean": 0.0,
+        "selected_observed_memory_known": false,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              4.5,
+              8.5,
+              0.0
+            ],
+            [
+              4.5,
+              7.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              5.5,
+              4.5,
+              0.0
+            ],
+            [
+              6.5,
+              4.5,
+              0.0
+            ],
+            [
+              7.5,
+              4.5,
+              0.0
+            ],
+            [
+              7.5,
+              3.5,
+              0.0
+            ],
+            [
+              7.5,
+              2.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.03428864851593971,
+            0.02400745451450348,
+            0.05938228964805603,
+            0.20134557783603668,
+            0.5732257962226868,
+            0.0
+          ],
+          "feedback": 0.13367794454097748,
+          "realized_reward": 0.8638371269525961,
+          "myopic_realized_reward": 0.8638371269525961,
+          "planning_value": 0.0,
+          "action": "read",
+          "destination": [
+            7.5,
+            2.5,
+            0.75
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 200506,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 0,
+        "selected_activity": "rest",
+        "teacher_best_indices": [
+          4
+        ],
+        "teacher_best_activities": [
+          "shower"
+        ],
+        "teacher_selected_utility": 0.4958903193473816,
+        "teacher_best_utility": 0.7290823459625244,
+        "utility_regret": 0.23319202661514282,
+        "probabilities": [
+          0.8317767381668091,
+          0.003207616740837693,
+          0.0,
+          0.0035465466789901257,
+          0.15249556303024292,
+          0.0,
+          0.0,
+          0.0,
+          0.0032526792492717505,
+          0.0032255665864795446,
+          0.0024953072424978018,
+          0.0
+        ],
+        "body_needs": [
+          0.19853243231773376,
+          0.007644522003829479,
+          0.18952974677085876,
+          0.18207138776779175,
+          0.3061373233795166,
+          0.2834222614765167
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.759236216545105,
+          0.0
+        ],
+        "selected_observed_memory_mean": 0.6416305303573608,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              8.5,
+              3.5,
+              0.0
+            ],
+            [
+              8.5,
+              4.5,
+              0.0
+            ],
+            [
+              8.5,
+              5.5,
+              0.0
+            ],
+            [
+              8.5,
+              6.5,
+              0.0
+            ],
+            [
+              9.5,
+              6.5,
+              0.0
+            ],
+            [
+              9.5,
+              7.5,
+              0.0
+            ],
+            [
+              9.5,
+              8.5,
+              0.0
+            ],
+            [
+              8.5,
+              8.5,
+              0.0
+            ],
+            [
+              8.5,
+              9.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.19853243231773376,
+            0.007644522003829479,
+            0.0,
+            0.18207138776779175,
+            0.3061373233795166,
+            0.16342225670814514
+          ],
+          "feedback": 0.6375160217285156,
+          "realized_reward": 0.4932159141600133,
+          "myopic_realized_reward": 0.4932159141600133,
+          "planning_value": 0.0,
+          "action": "rest",
+          "destination": [
+            8.5,
+            9.5,
+            0.5
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": false
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201228,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 0,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          4
+        ],
+        "teacher_best_activities": [
+          "eat"
+        ],
+        "teacher_selected_utility": 0.21965818107128143,
+        "teacher_best_utility": 0.43055325746536255,
+        "utility_regret": 0.21089507639408112,
+        "probabilities": [
+          0.9631572961807251,
+          0.0,
+          0.0001290966320084408,
+          0.0001248456974280998,
+          0.03385214880108833,
+          0.0,
+          0.000310032453853637,
+          0.0013641162076964974,
+          0.00018043705495074391,
+          0.00047645080485381186,
+          0.0001475975732319057,
+          0.00025788796483539045
+        ],
+        "body_needs": [
+          0.9187192916870117,
+          0.31565719842910767,
+          0.23031441867351532,
+          0.0743970051407814,
+          0.03240730240941048,
+          0.34168460965156555
+        ],
+        "external_cues": [
+          0.0,
+          0.7245423197746277,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_observed_memory_mean": 0.5554347634315491,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              8.5,
+              7.5,
+              0.0
+            ],
+            [
+              7.5,
+              7.5,
+              0.0
+            ],
+            [
+              6.5,
+              7.5,
+              0.0
+            ],
+            [
+              6.5,
+              6.5,
+              0.0
+            ],
+            [
+              5.5,
+              6.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              6.5,
+              0.0
+            ],
+            [
+              2.5,
+              6.5,
+              0.0
+            ],
+            [
+              1.5,
+              6.5,
+              0.0
+            ],
+            [
+              0.5,
+              6.5,
+              0.0
+            ],
+            [
+              0.5,
+              7.5,
+              0.0
+            ],
+            [
+              0.5,
+              8.5,
+              0.0
+            ],
+            [
+              0.5,
+              9.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.9187192916870117,
+            0.31565719842910767,
+            0.23031441867351532,
+            0.0743970051407814,
+            0.0,
+            0.34168460965156555
+          ],
+          "feedback": 0.5859553813934326,
+          "realized_reward": 0.23949658105289562,
+          "myopic_realized_reward": 0.23949658105289562,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            0.5,
+            9.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": false
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201363,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 6,
+        "selected_activity": "shower",
+        "teacher_best_indices": [
+          3
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.7887220978736877,
+        "teacher_best_utility": 0.9941132068634033,
+        "utility_regret": 0.20539110898971558,
+        "probabilities": [
+          0.0001912478037411347,
+          0.0001912478037411347,
+          0.0004224116855766624,
+          0.0990687683224678,
+          0.09060674160718918,
+          0.0015023923479020596,
+          0.7385900616645813,
+          0.0,
+          0.0010460623307153583,
+          0.0007804100750945508,
+          0.06628930568695068,
+          0.0013113244203850627
+        ],
+        "body_needs": [
+          0.19331559538841248,
+          0.1412714421749115,
+          0.9025387763977051,
+          0.28621402382850647,
+          0.05403226613998413,
+          0.17152400314807892
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.10819745063781738,
+          0.9748766422271729
+        ],
+        "selected_observed_memory_mean": 1.0,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              2.5,
+              8.5,
+              0.0
+            ],
+            [
+              3.5,
+              8.5,
+              0.0
+            ],
+            [
+              4.5,
+              8.5,
+              0.0
+            ],
+            [
+              4.5,
+              7.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.19331559538841248,
+            0.1412714421749115,
+            0.8425387740135193,
+            0.28621402382850647,
+            0.0,
+            0.09152400493621826
+          ],
+          "feedback": 0.9933789372444153,
+          "realized_reward": 0.7844184124357998,
+          "myopic_realized_reward": 0.7844184124357998,
+          "planning_value": 0.0,
+          "action": "shower",
+          "destination": [
+            4.5,
+            6.5,
+            1.65
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      }
+    ],
+    "seed2": [
+      {
+        "episode_seed": 201324,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 5,
+        "selected_activity": "entertainment",
+        "teacher_best_indices": [
+          10
+        ],
+        "teacher_best_activities": [
+          "drink"
+        ],
+        "teacher_selected_utility": 0.7128393650054932,
+        "teacher_best_utility": 1.338622808456421,
+        "utility_regret": 0.6257834434509277,
+        "probabilities": [
+          0.0,
+          0.4811752140522003,
+          0.0005977295804768801,
+          0.0008957973914220929,
+          0.003919497597962618,
+          0.5031429529190063,
+          0.0010951068252325058,
+          0.0029159768018871546,
+          0.001967550488188863,
+          0.002608036855235696,
+          0.001252048066817224,
+          0.00043004832696169615
+        ],
+        "body_needs": [
+          0.8603549599647522,
+          0.2362683117389679,
+          0.05781345069408417,
+          0.07249337434768677,
+          0.22757744789123535,
+          0.24826277792453766
+        ],
+        "external_cues": [
+          0.0,
+          0.7475467920303345,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "selected_observed_memory_mean": 0.9238995909690857,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              9.5,
+              0.5,
+              0.0
+            ],
+            [
+              8.5,
+              0.5,
+              0.0
+            ],
+            [
+              8.5,
+              1.5,
+              0.0
+            ],
+            [
+              8.5,
+              2.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.8603549599647522,
+            0.2362683117389679,
+            0.0978134498000145,
+            0.07249337434768677,
+            0.22757744789123535,
+            0.0
+          ],
+          "feedback": 0.9197015166282654,
+          "realized_reward": 0.7101106587201357,
+          "myopic_realized_reward": 0.7101106587201357,
+          "planning_value": 0.0,
+          "action": "entertainment",
+          "destination": [
+            8.5,
+            2.5,
+            0.75
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201712,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 9,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          5
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.48977652192115784,
+        "teacher_best_utility": 0.7741159200668335,
+        "utility_regret": 0.28433939814567566,
+        "probabilities": [
+          0.0004959448706358671,
+          0.0008415149059146643,
+          0.0022690400946885347,
+          0.00029515213100239635,
+          0.00036691309651359916,
+          0.0039756279438734055,
+          0.0018874086672440171,
+          0.0008345001260749996,
+          0.0006392981740646064,
+          0.9859204888343811,
+          0.0,
+          0.0024740397930145264
+        ],
+        "body_needs": [
+          0.2896210253238678,
+          0.1705130934715271,
+          0.517659068107605,
+          0.3045993149280548,
+          0.14490869641304016,
+          0.2413589358329773
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8808803558349609
+        ],
+        "selected_observed_memory_mean": 0.7835080027580261,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              6.5,
+              3.5,
+              0.0
+            ],
+            [
+              6.5,
+              4.5,
+              0.0
+            ],
+            [
+              5.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.2896210253238678,
+            0.1705130934715271,
+            0.517659068107605,
+            0.3045993149280548,
+            0.0,
+            0.2413589358329773
+          ],
+          "feedback": 0.7848593592643738,
+          "realized_reward": 0.49065490874648093,
+          "myopic_realized_reward": 0.49065490874648093,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            3.5,
+            6.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": true,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201330,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 1,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          5
+        ],
+        "teacher_best_activities": [
+          "entertainment"
+        ],
+        "teacher_selected_utility": 0.372383177280426,
+        "teacher_best_utility": 0.6123797297477722,
+        "utility_regret": 0.2399965524673462,
+        "probabilities": [
+          0.0015907377237454057,
+          0.6921563148498535,
+          0.00013558793580159545,
+          0.000914248637855053,
+          0.0,
+          0.2771705687046051,
+          0.0,
+          0.0016517993062734604,
+          0.001504399930126965,
+          0.0,
+          0.02487637847661972,
+          0.0
+        ],
+        "body_needs": [
+          0.19151774048805237,
+          0.03744848817586899,
+          0.1746932864189148,
+          0.13377170264720917,
+          0.5764379501342773,
+          0.114003986120224
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.24671946465969086,
+          0.0,
+          0.0,
+          0.9087343215942383
+        ],
+        "selected_observed_memory_mean": 0.0,
+        "selected_observed_memory_known": false,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              0.5,
+              4.5,
+              0.0
+            ],
+            [
+              1.5,
+              4.5,
+              0.0
+            ],
+            [
+              2.5,
+              4.5,
+              0.0
+            ],
+            [
+              3.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              6.5,
+              0.0
+            ],
+            [
+              3.5,
+              7.5,
+              0.0
+            ],
+            [
+              3.5,
+              8.5,
+              0.0
+            ],
+            [
+              2.5,
+              8.5,
+              0.0
+            ],
+            [
+              2.5,
+              9.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.19151774048805237,
+            0.03744848817586899,
+            0.1746932864189148,
+            0.13377170264720917,
+            0.22643795609474182,
+            0.114003986120224
+          ],
+          "feedback": -0.9866762757301331,
+          "realized_reward": -0.26895639520883563,
+          "myopic_realized_reward": -0.26895639520883563,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            2.5,
+            9.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201774,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 3,
+        "selected_activity": "wash",
+        "teacher_best_indices": [
+          9
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.3902660012245178,
+        "teacher_best_utility": 0.6139053106307983,
+        "utility_regret": 0.22363930940628052,
+        "probabilities": [
+          0.0025386952329427004,
+          0.0016904278891161084,
+          0.0,
+          0.8689701557159424,
+          0.0,
+          0.0017467659199610353,
+          0.0,
+          0.0,
+          0.002237578621134162,
+          0.11918789893388748,
+          0.00239087943919003,
+          0.001237606513313949
+        ],
+        "body_needs": [
+          0.1576792150735855,
+          0.0867994874715805,
+          0.20858195424079895,
+          0.16297931969165802,
+          0.5420182943344116,
+          0.058327481150627136
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.8403854966163635
+        ],
+        "selected_observed_memory_mean": 0.0,
+        "selected_observed_memory_known": false,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              2.5,
+              1.5,
+              0.0
+            ],
+            [
+              3.5,
+              1.5,
+              0.0
+            ],
+            [
+              4.5,
+              1.5,
+              0.0
+            ],
+            [
+              4.5,
+              2.5,
+              0.0
+            ],
+            [
+              4.5,
+              3.5,
+              0.0
+            ],
+            [
+              4.5,
+              4.5,
+              0.0
+            ],
+            [
+              4.5,
+              5.5,
+              0.0
+            ],
+            [
+              4.5,
+              6.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.1576792150735855,
+            0.0867994874715805,
+            0.20858195424079895,
+            0.16297931969165802,
+            0.1920183002948761,
+            0.058327481150627136
+          ],
+          "feedback": -0.20129747688770294,
+          "realized_reward": 0.25942264011502264,
+          "myopic_realized_reward": 0.25942264011502264,
+          "planning_value": 0.0,
+          "action": "wash",
+          "destination": [
+            4.5,
+            6.5,
+            0.9
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": false
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      },
+      {
+        "episode_seed": 201355,
+        "variant": "daily",
+        "history_flip_for_reconstruction": false,
+        "selected_index": 3,
+        "selected_activity": "drink",
+        "teacher_best_indices": [
+          11
+        ],
+        "teacher_best_activities": [
+          "rest"
+        ],
+        "teacher_selected_utility": 0.6658797860145569,
+        "teacher_best_utility": 0.8843581676483154,
+        "utility_regret": 0.21847838163375854,
+        "probabilities": [
+          0.0013016964076086879,
+          0.0,
+          0.0004533822648227215,
+          0.6271110773086548,
+          0.0,
+          0.0,
+          0.0,
+          0.0016639656387269497,
+          0.0010312538361176848,
+          0.0014212814858183265,
+          0.0,
+          0.36701729893684387
+        ],
+        "body_needs": [
+          0.2570059895515442,
+          0.14765633642673492,
+          0.28677457571029663,
+          0.2345060408115387,
+          0.988431453704834,
+          0.27716976404190063
+        ],
+        "external_cues": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7809668183326721
+        ],
+        "selected_observed_memory_mean": 0.9496044516563416,
+        "selected_observed_memory_known": true,
+        "execution": {
+          "arrived": true,
+          "completed": true,
+          "path": [
+            [
+              1.5,
+              3.5,
+              0.0
+            ],
+            [
+              2.5,
+              3.5,
+              0.0
+            ],
+            [
+              3.5,
+              3.5,
+              0.0
+            ],
+            [
+              4.5,
+              3.5,
+              0.0
+            ],
+            [
+              4.5,
+              2.5,
+              0.0
+            ],
+            [
+              4.5,
+              1.5,
+              0.0
+            ]
+          ],
+          "end_body": [
+            0.0,
+            0.14765633642673492,
+            0.28677457571029663,
+            0.3545060455799103,
+            0.988431453704834,
+            0.2571697533130646
+          ],
+          "feedback": 0.9556325078010559,
+          "realized_reward": 0.6697980178147556,
+          "myopic_realized_reward": 0.6697980178147556,
+          "planning_value": 0.0,
+          "action": "drink",
+          "destination": [
+            4.5,
+            1.5,
+            0.95
+          ],
+          "resources_after": {
+            "meal_prepared": false,
+            "ingredients_available": true,
+            "water_available": true
+          },
+          "completion_requires": [
+            "valid_path",
+            "arrived",
+            "resource_available",
+            "prerequisite_met",
+            "vertical_reach"
+          ]
+        }
+      }
+    ]
+  }
+}

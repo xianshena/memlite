@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "source_sha256": "54a0d8b3e14258bd17851ee011c61c711ecdad701e502f0ac15c8c98c5aaa76e",
+  "feature_names": [
+    "body_thirst",
+    "body_hunger",
+    "body_fatigue",
+    "body_bladder",
+    "body_hygiene",
+    "body_boredom",
+    "cue_food_video",
+    "cue_water_cue",
+    "cue_phone_cue",
+    "cue_work_cue",
+    "cue_fitness_cue",
+    "cue_quiet_cue",
+    "time_sin",
+    "time_cos",
+    "ego_x",
+    "ego_y",
+    "ego_z",
+    "activity_drink",
+    "activity_cook",
+    "activity_eat",
+    "activity_sleep",
+    "activity_rest",
+    "activity_toilet",
+    "activity_wash",
+    "activity_shower",
+    "activity_work",
+    "activity_read",
+    "activity_exercise",
+    "activity_entertainment",
+    "relative_x",
+    "relative_y",
+    "relative_z",
+    "resource_available",
+    "prerequisite_met",
+    "path_distance",
+    "meal_prepared",
+    "ingredients_available",
+    "future_eat_path_distance",
+    "memory_mean",
+    "memory_known"
+  ],
+  "memory_columns": [
+    38,
+    39
+  ],
+  "splits": [
+    {
+      "split": "train",
+      "n": 10000,
+      "npz_sha256": "d0705c7303a0cf16aaa44df3a770998e23615b0886401f31706bb19b4712ea8b",
+      "regenerated_all_input_and_supervision_arrays_exactly": true,
+      "strict_input_schema_passed": true,
+      "npz_zip_crc_passed": true,
+      "variant_counts": {
+        "daily": 8000,
+        "counterfactual": 1500,
+        "unknown": 500
+      },
+      "unique_scene_geometries": 10000,
+      "entity_groups_sha256": "169f639d28d99a456691a09579aab014e3a4664765d0a0cbbb302165c78c1002"
+    },
+    {
+      "split": "validation",
+      "n": 1000,
+      "npz_sha256": "a874f113c66e5d38677396da14dfebd2c2f0467108c4ddb216758ee114168f59",
+      "regenerated_all_input_and_supervision_arrays_exactly": true,
+      "strict_input_schema_passed": true,
+      "npz_zip_crc_passed": true,
+      "variant_counts": {
+        "daily": 800,
+        "counterfactual": 150,
+        "unknown": 50
+      },
+      "unique_scene_geometries": 1000,
+      "entity_groups_sha256": "3bc0489d85b75d25f548fb19637b4726801c49573f1f6f4c7dec71b6b9debaa2"
+    },
+    {
+      "split": "test",
+      "n": 2000,
+      "npz_sha256": "efedaa933c87f4928ae7c8c81bd6a257470bf63ccfe1aa066a5110e977212c7a",
+      "regenerated_all_input_and_supervision_arrays_exactly": true,
+      "strict_input_schema_passed": true,
+      "npz_zip_crc_passed": true,
+      "variant_counts": {
+        "daily": 1600,
+        "counterfactual": 300,
+        "unknown": 100
+      },
+      "unique_scene_geometries": 2000,
+      "entity_groups_sha256": "b2ff2c6a03d7b722a5a3732b3bb3b08d342a2ff8e1674909296bd8e8ba830f8c"
+    }
+  ],
+  "all_entity_groups_and_scene_geometries_disjoint": true,
+  "model_inference_or_training_performed": false
+}

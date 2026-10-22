@@ -1,0 +1,409 @@
+{
+  "reference_commits": {
+    "G0_G1a": "0a29d65",
+    "household_results": "9dd5601",
+    "household_final_style": "bd415e8",
+    "teacher_appendix": "0233445"
+  },
+  "absolute_paths_intentionally_omitted": true,
+  "files": [
+    {
+      "source_relative_path": "life_choice/__init__.py",
+      "preview_path": "life_choice/__init__.py",
+      "source_sha256": "3671f10bab59447fbf4023c405a87ade3347236f08d962f9dc06a7dcdc22474f",
+      "preview_sha256": "3671f10bab59447fbf4023c405a87ade3347236f08d962f9dc06a7dcdc22474f",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice/environment.py",
+      "preview_path": "life_choice/environment.py",
+      "source_sha256": "54a0d8b3e14258bd17851ee011c61c711ecdad701e502f0ac15c8c98c5aaa76e",
+      "preview_sha256": "54a0d8b3e14258bd17851ee011c61c711ecdad701e502f0ac15c8c98c5aaa76e",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice/gpu_model.py",
+      "preview_path": "life_choice/gpu_model.py",
+      "source_sha256": "92fffb8540529e3c760bf1a9dd6c2e83f6b8aac94f53114e6917541914f3d25f",
+      "preview_sha256": "92fffb8540529e3c760bf1a9dd6c2e83f6b8aac94f53114e6917541914f3d25f",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice/train_gpu.py",
+      "preview_path": "life_choice/train_gpu.py",
+      "source_sha256": "e51279c24ac6ca8de72122f013718630194891c8d2dd3e8ed6d14c77d657a1d9",
+      "preview_sha256": "46490f882dab781851075af7e1355040f122a2c52f84f1991d3ed690cca5718d",
+      "change": "portable output-local GPU lock; generic error wording; learning/metrics unchanged; GPU execution unverified in preview"
+    },
+    {
+      "source_relative_path": "object_memory/__init__.py",
+      "preview_path": "object_memory/__init__.py",
+      "source_sha256": "6be06ec41cd5a340f3662fb2b4cb8ca3c6b2f975cc464bf98268a6ad2e64ebf5",
+      "preview_sha256": "6be06ec41cd5a340f3662fb2b4cb8ca3c6b2f975cc464bf98268a6ad2e64ebf5",
+      "change": "byte-identical pure-standard-library source"
+    },
+    {
+      "source_relative_path": "object_memory/environment.py",
+      "preview_path": "object_memory/environment.py",
+      "source_sha256": "23eceb2ffb895f8354822b0b23281a5d028325f983c410cb485e85a1c72a558b",
+      "preview_sha256": "23eceb2ffb895f8354822b0b23281a5d028325f983c410cb485e85a1c72a558b",
+      "change": "byte-identical pure-standard-library source"
+    },
+    {
+      "source_relative_path": "object_memory/evaluate.py",
+      "preview_path": "object_memory/evaluate.py",
+      "source_sha256": "994faf8bc175036fd5fdd00cf093d2d3a17a67cee8e941dd00a31455264d9f03",
+      "preview_sha256": "236adfc4dc18d1dcc20d3c365051b2498aaa4ada4fe075e3ecb9182aa10a1ba3",
+      "change": "new-run output defaults isolated from recorded evidence"
+    },
+    {
+      "source_relative_path": "object_memory/geometry.py",
+      "preview_path": "object_memory/geometry.py",
+      "source_sha256": "1dfc13c0e18a466e10839e6e31507c3e38e941d4f7004a5eed3ba14a6cd2f706",
+      "preview_sha256": "1dfc13c0e18a466e10839e6e31507c3e38e941d4f7004a5eed3ba14a6cd2f706",
+      "change": "byte-identical pure-standard-library source"
+    },
+    {
+      "source_relative_path": "object_memory/interface.py",
+      "preview_path": "object_memory/interface.py",
+      "source_sha256": "276716eb3e3409b25b995903630e3e6455819207c900b1ff9afae1ab28a5ee00",
+      "preview_sha256": "276716eb3e3409b25b995903630e3e6455819207c900b1ff9afae1ab28a5ee00",
+      "change": "byte-identical pure-standard-library source"
+    },
+    {
+      "source_relative_path": "object_memory/memory.py",
+      "preview_path": "object_memory/memory.py",
+      "source_sha256": "4bf83ec8fd52cd50cc4c787e141acb97a3173d56a448b360323ee30657a78074",
+      "preview_sha256": "4bf83ec8fd52cd50cc4c787e141acb97a3173d56a448b360323ee30657a78074",
+      "change": "byte-identical pure-standard-library source"
+    },
+    {
+      "source_relative_path": "tests/test_object_memory.py",
+      "preview_path": "tests/test_object_memory.py",
+      "source_sha256": "fade2cbd6847593a8387cc63a7a09e76fcbd5832e5669497208a4046e6bc8d6c",
+      "preview_sha256": "fade2cbd6847593a8387cc63a7a09e76fcbd5832e5669497208a4046e6bc8d6c",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "tests/test_life_environment.py",
+      "preview_path": "tests/test_life_environment.py",
+      "source_sha256": "c4006ef84dba78dfc5d1c94af8a7f88c3c31708e3310375bde97fb111a8ed062",
+      "preview_sha256": "c4006ef84dba78dfc5d1c94af8a7f88c3c31708e3310375bde97fb111a8ed062",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "tests/test_life_model.py",
+      "preview_path": "tests/test_life_model.py",
+      "source_sha256": "c498d1bd974d941fdebcef91209ec5b6c1b738c96fb5bbb3b933ce0267b2fed3",
+      "preview_sha256": "c498d1bd974d941fdebcef91209ec5b6c1b738c96fb5bbb3b933ce0267b2fed3",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice_data/manifest.json",
+      "preview_path": "data/life_choice/manifest.json",
+      "source_sha256": "4da9990ba5902f0508363fe152b6750a97e7e5cf52debaa8005381a54f5f2b78",
+      "preview_sha256": "4da9990ba5902f0508363fe152b6750a97e7e5cf52debaa8005381a54f5f2b78",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice_data/train.npz",
+      "preview_path": "data/life_choice/train.npz",
+      "source_sha256": "d0705c7303a0cf16aaa44df3a770998e23615b0886401f31706bb19b4712ea8b",
+      "preview_sha256": "d0705c7303a0cf16aaa44df3a770998e23615b0886401f31706bb19b4712ea8b",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice_data/validation.npz",
+      "preview_path": "data/life_choice/validation.npz",
+      "source_sha256": "a874f113c66e5d38677396da14dfebd2c2f0467108c4ddb216758ee114168f59",
+      "preview_sha256": "a874f113c66e5d38677396da14dfebd2c2f0467108c4ddb216758ee114168f59",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice_data/test.npz",
+      "preview_path": "data/life_choice/test.npz",
+      "source_sha256": "efedaa933c87f4928ae7c8c81bd6a257470bf63ccfe1aa066a5110e977212c7a",
+      "preview_sha256": "efedaa933c87f4928ae7c8c81bd6a257470bf63ccfe1aa066a5110e977212c7a",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "life_choice_data/representative.jsonl",
+      "preview_path": "data/life_choice/representative.jsonl",
+      "source_sha256": "0320c5bc4d7915349f32e75098521537994449c2aa22743e111174a497a0e75b",
+      "preview_sha256": "0320c5bc4d7915349f32e75098521537994449c2aa22743e111174a497a0e75b",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "object_memory_data/pilot.jsonl",
+      "preview_path": "data/object_memory/pilot.jsonl",
+      "source_sha256": "d8488d332350f5756e407dc28a9795971b67fc641fbf2dbcba37bc375b433b2d",
+      "preview_sha256": "d8488d332350f5756e407dc28a9795971b67fc641fbf2dbcba37bc375b433b2d",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed0/training.jsonl",
+      "preview_path": "results/life_choice/seed0/training.jsonl",
+      "source_sha256": "aae11850e2666e0db3b5b8ebec598ff572cc17531e5bc7803a2c830e22f764f2",
+      "preview_sha256": "aae11850e2666e0db3b5b8ebec598ff572cc17531e5bc7803a2c830e22f764f2",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed0/test_metrics.json",
+      "preview_path": "results/life_choice/seed0/test_metrics.json",
+      "source_sha256": "97a73b961d681b1c424c2b9c174f3f0eb41ec75ef9add012edd896d16b6535fd",
+      "preview_sha256": "97a73b961d681b1c424c2b9c174f3f0eb41ec75ef9add012edd896d16b6535fd",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed0/diagnostics.json",
+      "preview_path": "results/life_choice/seed0/diagnostics.json",
+      "source_sha256": "9b66f2f535214828a78f253fc7ede873853bc86117940a1878a2849886b74a0e",
+      "preview_sha256": "9b66f2f535214828a78f253fc7ede873853bc86117940a1878a2849886b74a0e",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed0/action_examples.json",
+      "preview_path": "results/life_choice/seed0/action_examples.json",
+      "source_sha256": "220ba8d79a960c97492166b59d2310f51ea22dc0ec4127686b336cedb015b718",
+      "preview_sha256": "220ba8d79a960c97492166b59d2310f51ea22dc0ec4127686b336cedb015b718",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed0-decisions.jsonl",
+      "preview_path": "results/life_choice/action_audit/seed0-decisions.jsonl",
+      "source_sha256": "2f01c98ae46fbea00dcc937e5ac0417a52c80d7ad49c90cd0022bcc5558044d8",
+      "preview_sha256": "2f01c98ae46fbea00dcc937e5ac0417a52c80d7ad49c90cd0022bcc5558044d8",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed0-metrics.json",
+      "preview_path": "results/life_choice/action_audit/seed0-metrics.json",
+      "source_sha256": "9ca4e6708cf27cf835e4651be554cc60d6ac785f4633a875774008ac45f38926",
+      "preview_sha256": "9ca4e6708cf27cf835e4651be554cc60d6ac785f4633a875774008ac45f38926",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed0-examples.json",
+      "preview_path": "results/life_choice/action_audit/seed0-examples.json",
+      "source_sha256": "7fbf98ab7319aaa990749b70577739c9eab7947dd5ec71901d51396461b6dbe4",
+      "preview_sha256": "7fbf98ab7319aaa990749b70577739c9eab7947dd5ec71901d51396461b6dbe4",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed1/training.jsonl",
+      "preview_path": "results/life_choice/seed1/training.jsonl",
+      "source_sha256": "efcc81912f5e788be820bb842d5e4fee92adcb713da0cb84d07e31e93b72ffaf",
+      "preview_sha256": "efcc81912f5e788be820bb842d5e4fee92adcb713da0cb84d07e31e93b72ffaf",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed1/test_metrics.json",
+      "preview_path": "results/life_choice/seed1/test_metrics.json",
+      "source_sha256": "2fcd90d25693e9344a7f8fc4ebc958f6e2641fa8d7a63768637c7b852f029188",
+      "preview_sha256": "2fcd90d25693e9344a7f8fc4ebc958f6e2641fa8d7a63768637c7b852f029188",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed1/diagnostics.json",
+      "preview_path": "results/life_choice/seed1/diagnostics.json",
+      "source_sha256": "bb81f8ba774438bb2c647bd07a26e4ddb8852b4ad1d341919fa4ae73bce794a3",
+      "preview_sha256": "bb81f8ba774438bb2c647bd07a26e4ddb8852b4ad1d341919fa4ae73bce794a3",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed1/action_examples.json",
+      "preview_path": "results/life_choice/seed1/action_examples.json",
+      "source_sha256": "04a6717a813445a6e7de59677937ae3166e4defeb2912d6b76f2ccc701a3deba",
+      "preview_sha256": "04a6717a813445a6e7de59677937ae3166e4defeb2912d6b76f2ccc701a3deba",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed1-decisions.jsonl",
+      "preview_path": "results/life_choice/action_audit/seed1-decisions.jsonl",
+      "source_sha256": "ebc18072cc7fa4130f91f24189f017442cfdc443a288dbc77a03c73b1009ca28",
+      "preview_sha256": "ebc18072cc7fa4130f91f24189f017442cfdc443a288dbc77a03c73b1009ca28",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed1-metrics.json",
+      "preview_path": "results/life_choice/action_audit/seed1-metrics.json",
+      "source_sha256": "b1695919f1fdbbce3dbcf7226ef9d94c7decca839788eee58e00d3f7f0f46f48",
+      "preview_sha256": "b1695919f1fdbbce3dbcf7226ef9d94c7decca839788eee58e00d3f7f0f46f48",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed1-examples.json",
+      "preview_path": "results/life_choice/action_audit/seed1-examples.json",
+      "source_sha256": "6c315b396862cdbdc42bd23da45f85acc7c95db244de249b94d2353cf64fe883",
+      "preview_sha256": "6c315b396862cdbdc42bd23da45f85acc7c95db244de249b94d2353cf64fe883",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed2/training.jsonl",
+      "preview_path": "results/life_choice/seed2/training.jsonl",
+      "source_sha256": "e23d9e31a09e87cadc13bb1469ce9f6b643f5782d06228fe45325554eac5f8ed",
+      "preview_sha256": "e23d9e31a09e87cadc13bb1469ce9f6b643f5782d06228fe45325554eac5f8ed",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed2/test_metrics.json",
+      "preview_path": "results/life_choice/seed2/test_metrics.json",
+      "source_sha256": "cea6d49d9c3e491bff09cd15b43e9bfc616073474e2efbd660d67874c519a501",
+      "preview_sha256": "cea6d49d9c3e491bff09cd15b43e9bfc616073474e2efbd660d67874c519a501",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed2/diagnostics.json",
+      "preview_path": "results/life_choice/seed2/diagnostics.json",
+      "source_sha256": "b61dcd448c43ea1784b05da8150e4369629905fa52089bf51172edb9f61bdd52",
+      "preview_sha256": "b61dcd448c43ea1784b05da8150e4369629905fa52089bf51172edb9f61bdd52",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/seed2/action_examples.json",
+      "preview_path": "results/life_choice/seed2/action_examples.json",
+      "source_sha256": "b162e14674581d2e0ed3e544e0343e6a18abf37291e516a8ece7f9f2ccb38945",
+      "preview_sha256": "b162e14674581d2e0ed3e544e0343e6a18abf37291e516a8ece7f9f2ccb38945",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed2-decisions.jsonl",
+      "preview_path": "results/life_choice/action_audit/seed2-decisions.jsonl",
+      "source_sha256": "0666473d7e130f592723310f9b22a8d836858a3b7c5af8449d67297d0f3a0cd7",
+      "preview_sha256": "0666473d7e130f592723310f9b22a8d836858a3b7c5af8449d67297d0f3a0cd7",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed2-metrics.json",
+      "preview_path": "results/life_choice/action_audit/seed2-metrics.json",
+      "source_sha256": "b1b571560871258d28ac6c805f3f15a28d5c53a23bc6f70bd26f342faac67ce3",
+      "preview_sha256": "b1b571560871258d28ac6c805f3f15a28d5c53a23bc6f70bd26f342faac67ce3",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/action-audit/seed2-examples.json",
+      "preview_path": "results/life_choice/action_audit/seed2-examples.json",
+      "source_sha256": "6f258f5f81811266607a731c6325862973b80517aebb37d7b9c46a1a9624749d",
+      "preview_sha256": "6f258f5f81811266607a731c6325862973b80517aebb37d7b9c46a1a9624749d",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/summary.json",
+      "preview_path": "results/life_choice/summary.json",
+      "source_sha256": "41c214eb231ed6c7dcd74a1550fdec2228d66f15da7410cf787452255a11c048",
+      "preview_sha256": "c74b31afb82c377ba288c2f012a2c12c75e218ca33fea0fde95027d4be6a182c",
+      "change": "explicit whitelist projection; private checkpoint paths and hardware identity receipt fields excluded"
+    },
+    {
+      "source_relative_path": "results/life-choice/failure_examples.json",
+      "preview_path": "results/life_choice/failure_examples.json",
+      "source_sha256": "0875db33b5a968f18bf5219b4a059c7bc733584ca83c04bf440ee940c0cffea3",
+      "preview_sha256": "0875db33b5a968f18bf5219b4a059c7bc733584ca83c04bf440ee940c0cffea3",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/life-choice/data_audit.json",
+      "preview_path": "results/life_choice/data_audit.json",
+      "source_sha256": "c90c3ae3f48773d152d4c505f9af9ad1c8dde930b681539ea3a9fa00c948ed91",
+      "preview_sha256": "c90c3ae3f48773d152d4c505f9af9ad1c8dde930b681539ea3a9fa00c948ed91",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "research/life-choice/protocol.json",
+      "preview_path": "protocols/life_choice_original.json",
+      "source_sha256": "cf7cec0ee67030b563ab5af73260a1050fa632f6682f89c4649c31f7a9d1c72f",
+      "preview_sha256": "cf7cec0ee67030b563ab5af73260a1050fa632f6682f89c4649c31f7a9d1c72f",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/protocol.json",
+      "preview_path": "results/object_memory/protocol.json",
+      "source_sha256": "ac748e7964f8fd8c12c1b5eea9937511160018fc4eca9efbf251d8cbb16ba69c",
+      "preview_sha256": "ac748e7964f8fd8c12c1b5eea9937511160018fc4eca9efbf251d8cbb16ba69c",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/failure_cases.json",
+      "preview_path": "results/object_memory/failure_cases.json",
+      "source_sha256": "dfd7546c691ba5bde882d75fbc037d196e564f247cfcd96b9d5a4bb13574701e",
+      "preview_sha256": "dfd7546c691ba5bde882d75fbc037d196e564f247cfcd96b9d5a4bb13574701e",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/failure_examples.json",
+      "preview_path": "results/object_memory/failure_examples.json",
+      "source_sha256": "6a75c7ce9ccedc2cb53e5c62f82477754abc8d64e600e4ec04d03f3810e7cb97",
+      "preview_sha256": "6a75c7ce9ccedc2cb53e5c62f82477754abc8d64e600e4ec04d03f3810e7cb97",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/pilot_manifest.json",
+      "preview_path": "results/object_memory/pilot_manifest.json",
+      "source_sha256": "122b64f53877debc7dc8715e3580cf0d97fc8bf6c6dbea8c22fdf2c318b95abf",
+      "preview_sha256": "122b64f53877debc7dc8715e3580cf0d97fc8bf6c6dbea8c22fdf2c318b95abf",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/decisions.json",
+      "preview_path": "results/object_memory/decisions.json",
+      "source_sha256": "21851b57398233694f47966cdbce7da0a92dff1f43f051cf856055cf10216b78",
+      "preview_sha256": "21851b57398233694f47966cdbce7da0a92dff1f43f051cf856055cf10216b78",
+      "change": "byte-identical selected synthetic project file"
+    },
+    {
+      "source_relative_path": "results/object-memory/spatial_example.json",
+      "preview_path": "results/object_memory/spatial_example.json",
+      "source_sha256": "fb76d22ce26e0153d2babddeced1b643f8389b489381edfc94a1b122070f7e88",
+      "preview_sha256": "fb76d22ce26e0153d2babddeced1b643f8389b489381edfc94a1b122070f7e88",
+      "change": "byte-identical selected synthetic project file"
+    }
+  ],
+  "unmapped_new_files": "new preview documentation, CPU example, audit and packaging utilities; not historical experimental source",
+  "derived_evidence": [
+    {
+      "preview_path": "results/life_choice/summary.json",
+      "projection": "selected nonidentifying scalar fields; not a byte-identical source record",
+      "source_files": [
+        {
+          "relative_path": "results/life-choice/summary.json",
+          "sha256": "41c214eb231ed6c7dcd74a1550fdec2228d66f15da7410cf787452255a11c048"
+        }
+      ],
+      "preview_sha256": "c74b31afb82c377ba288c2f012a2c12c75e218ca33fea0fde95027d4be6a182c"
+    },
+    {
+      "preview_path": "results/object_memory/summary.json",
+      "projection": "selected nonidentifying scalar fields; not a byte-identical source record",
+      "source_files": [
+        {
+          "relative_path": "results/object-memory/summary.json",
+          "sha256": "5c6b4b23af521b66dbe9bab85d661eacf1c52840cd587a2883e0bf5f15cfc070"
+        }
+      ],
+      "preview_sha256": "410c9d6b8652286ccdc7532fcebf1afcea8eadeae29970368906bec5d80b1e1e"
+    },
+    {
+      "preview_path": "appendix/teacher_scaling.json",
+      "projection": "selected nonidentifying scalar fields; not a byte-identical source record",
+      "source_files": [
+        {
+          "relative_path": "results/life-choice-teacher/training/attempt1-state.json",
+          "sha256": "76413621bd933b3d88aac4864de9e88a558931e7cd81465da402fc80a2332697"
+        },
+        {
+          "relative_path": "results/life-choice-teacher/training/final-attempt2-state.json",
+          "sha256": "3346ad98abd4dbb8362e6021bbf5720616689e89f6c98853c84e6721ebb69785"
+        },
+        {
+          "relative_path": "results/life-choice-teacher/teacher-v2-train/summary.json",
+          "sha256": "e816bf2ce55a9e26dde28afb5acc2b7d936065cc1df588e7d96a0792ed79500a"
+        },
+        {
+          "relative_path": "results/life-choice-teacher/teacher-v2-validation/summary.json",
+          "sha256": "3fa3a7f2a7a3484684bc2cbb04fca6ee6da78ac740f7defab477ec7317bed56f"
+        }
+      ],
+      "preview_sha256": "c5810c05b25186219f556574150c85509ba13c5d68979c8f94da0bd882191c66"
+    }
+  ]
+}

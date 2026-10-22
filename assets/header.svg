@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-label="MemLite — small experiments, explicit memory, reproducible evidence">
+<defs><linearGradient id="bg"><stop stop-color="#fff3f7"/><stop offset="1" stop-color="#f0eafa"/></linearGradient></defs>
+<rect width="1100" height="240" rx="28" fill="url(#bg)"/>
+<g fill="none" stroke="#d6bedf" stroke-width="2"><circle cx="940" cy="120" r="65"/><circle cx="940" cy="120" r="40"/><path d="M850 120h180M940 30v180"/></g>
+<g fill="#c595b7"><circle cx="940" cy="55" r="6"/><circle cx="900" cy="120" r="6"/><circle cx="940" cy="160" r="6"/></g>
+<text x="55" y="106" font-family="sans-serif" font-size="57" font-weight="700" fill="#51405e">MemLite</text>
+<text x="58" y="151" font-family="sans-serif" font-size="22" fill="#77627e">Small experiments. Explicit memory. Reproducible evidence.</text>
+<text x="58" y="193" font-family="sans-serif" font-size="16" fill="#91769a">MEMORY-CONDITIONED DECISION LEARNING</text></svg>

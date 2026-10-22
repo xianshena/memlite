@@ -1,0 +1,622 @@
+{
+  "status": "ALL_SCHEDULED_TRAINING_AND_ARTIFACT_ACTION_AUDITS_COMPLETE",
+  "origin": "recorded 2026-10-21 synthetic household run; not newly trained for this preview",
+  "parameter_count": 308487175,
+  "split_counts": {
+    "train": 10000,
+    "validation": 1000,
+    "test": 2000
+  },
+  "daily_across_seeds": {
+    "unweighted_mean_accuracy": 0.9410416666666667,
+    "sample_standard_deviation_between_three_seeds": 0.0003608439182435084,
+    "worst_seed": 1,
+    "worst_seed_accuracy": 0.940625,
+    "statistical_scope": "Same 1600 daily test scenes reused for each seed. No pooled 4800/6000-independent-trial confidence interval."
+  },
+  "verification_limits": [
+    "Completion status means planned work and evidence are complete, not a universal capability pass.",
+    "Parameter scale is user-selected; no model-size superiority or Jev/RLCD reproduction established.",
+    "Six GPU preflight tests use width-32 depth-2 homologous fixtures, not the full 308M model.",
+    "Full-size model separately records finite loss/gradient evidence for all 948 steps per seed.",
+    "Action re-inference uses final fixed GPU weights for artifact/action verification; no training or tuning.",
+    "Simulator BFS supplies navigation; abstract activities are not learned motor control.",
+    "Resume state preserved and hashes verified; bitwise-equivalent interrupted/resumed training unverified.",
+    "Raw equal-frequency ECE is descriptive, not fitted temperature calibration or accuracy guarantee.",
+    "Cross-platform metadata reconstruction uses atol=2e-6/rtol=0 and exact masks; byte-identical generation across NumPy versions is not established. Frozen GPU inputs never change.",
+    "Structured simulated cues/needs are not real video perception or biological hormones."
+  ],
+  "seeds": [
+    {
+      "seed": 0,
+      "parameters": 308487175,
+      "trainable_parameters": 308487175,
+      "training": {
+        "unique_optimizer_steps": 948,
+        "duplicate_log_step_records": 0,
+        "complete_epochs": 12,
+        "independent_training_scenarios": 10000,
+        "scenario_presentations": 120000,
+        "logged_unique_step_seconds": 485.58093955201184,
+        "scenario_presentations_per_compute_second": 247.12666875003336,
+        "full_128_batch_step_median_seconds": 0.5107403679999152,
+        "full_128_batch_step_mean_seconds": 0.5145301874871947,
+        "elapsed_seconds_state": 565.7935223579407,
+        "state_elapsed_scope": "Current training process including validation, saving and diagnostics; excludes local checkpoint downloads and total multi-seed suite wall time.",
+        "timing_scope": "Logged training steps; excludes validation/checkpoint/archive. State elapsed and utility-head change may cover only the last resume segment.",
+        "all_logged_losses_and_gradient_norms_finite": true,
+        "peak_cuda_allocated_bytes": 6845809152,
+        "peak_cuda_reserved_bytes": 7245660160,
+        "validation_final_daily_accuracy": 0.9312499761581421
+      },
+      "daily": {
+        "successes": 1506,
+        "n": 1600,
+        "accuracy": 0.94125,
+        "wilson_95": [
+          0.9286360751665358,
+          0.9517501950813009
+        ]
+      },
+      "frozen_test_experience": {
+        "successes": 300,
+        "n": 300,
+        "accuracy": 1.0,
+        "wilson_95": [
+          0.9873570287754538,
+          0.9999999999999998
+        ]
+      },
+      "unknown_known_utility_tie_optimality": 1.0,
+      "unknown_hidden_control_frozen_test_subset": {
+        "successes": 60,
+        "n": 100,
+        "accuracy": 0.6,
+        "wilson_95": [
+          0.5020025867910618,
+          0.6905987135675411
+        ],
+        "binary_nll": 0.6891741028604014,
+        "binary_brier": 0.2480139445542644,
+        "mean_abs_p_minus_half": 0.016397869884967803
+      },
+      "action_execution": {
+        "n": 2000,
+        "arrived": 2000,
+        "completed": 2000,
+        "completion_rate": 1.0,
+        "completion_wilson_95": [
+          0.9980829527187469,
+          0.9999999999999998
+        ],
+        "mean_realized_simulator_reward": 1.2355340709864517,
+        "mean_myopic_simulator_reward": 1.1445040156138215,
+        "scope": "BFS navigation, known preconditions and abstract activity simulator; not learned motor control",
+        "fixed_weight_cuda_inference_seconds": 2.4962561600023037,
+        "fixed_weight_cuda_scenes_per_compute_second": 801.1998255812634,
+        "inference_batch_size": 64,
+        "full_64_batch_median_seconds": 0.05626227199900313,
+        "inference_timing_scope": "GPU forward batch timing; not measured single-scene real-time latency."
+      },
+      "raw_known_choice_ece_15_equal_frequency": 0.022685050870242883,
+      "ece_scope": "Raw confidence on 1900 known test scenes; equal-frequency 15 bins; no temperature fit.",
+      "failure_count_positive_teacher_regret": 94,
+      "diagnostics": {
+        "paired_history": {
+          "original_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "swapped_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "both_correct_and_flip": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "clear_memory_forced_accuracy": {
+            "successes": 102,
+            "n": 200,
+            "accuracy": 0.51,
+            "wilson_95": [
+              0.44118587678458643,
+              0.5784372166878682
+            ]
+          }
+        },
+        "unknown_hidden_preference": {
+          "successes": 994,
+          "n": 2000,
+          "accuracy": 0.497,
+          "wilson_95": [
+            0.4751140951980067,
+            0.5188974070856807
+          ],
+          "chance_accuracy": 0.5,
+          "chance_in_wilson_95": true,
+          "binary_nll": 0.6943040228560098,
+          "binary_brier": 0.25057715434104616,
+          "mean_abs_probability_minus_half": 0.017036277025938035,
+          "max_probability_at_least_point9_fraction": 0.0,
+          "reference_uniform_binary_nll": 0.6931471805599453,
+          "reference_uniform_binary_brier": 0.25,
+          "source": "Separate 2000-trial diagnostic aggregates, not the 100 tied frozen-test scenes."
+        },
+        "nonmemory_current_inputs_equal": true,
+        "no_feedback_sentinel_equal": true,
+        "bf16_permutation_probability_max_abs_diff": 0.00011772243306040764,
+        "meets_legacy_1e_minus6_permutation_threshold": false
+      },
+      "test_metrics_from_training_state": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.9530000686645508,
+        "mean_utility_regret": 0.00393176544457674,
+        "choice_nll": 0.17828655242919922,
+        "multiclass_brier_sum": 0.07280419021844864,
+        "utility_mae": 0.23531825840473175,
+        "need_delta_mae": 0.023778846487402916,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.9412499666213989,
+            "mean_regret": 0.004914706107228994,
+            "nll": 0.17880161106586456
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.0036568166688084602
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.6939349174499512
+          }
+        }
+      },
+      "cleared_memory_against_original_full_information_teacher": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.7465000152587891,
+        "mean_utility_regret": 0.15312586724758148,
+        "choice_nll": 1.0304028987884521,
+        "multiclass_brier_sum": 0.39552438259124756,
+        "utility_mae": 0.3620728552341461,
+        "need_delta_mae": 0.024174103513360023,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.7768749594688416,
+            "mean_regret": 0.06953232735395432,
+            "nll": 1.114544153213501
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 0.5,
+            "mean_regret": 0.6500000357627869,
+            "nll": 0.693804919719696
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.6939349174499512
+          }
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "parameters": 308487175,
+      "trainable_parameters": 308487175,
+      "training": {
+        "unique_optimizer_steps": 948,
+        "duplicate_log_step_records": 0,
+        "complete_epochs": 12,
+        "independent_training_scenarios": 10000,
+        "scenario_presentations": 120000,
+        "logged_unique_step_seconds": 484.71799971198925,
+        "scenario_presentations_per_compute_second": 247.56662651542104,
+        "full_128_batch_step_median_seconds": 0.5112466400000812,
+        "full_128_batch_step_mean_seconds": 0.5135952254016991,
+        "elapsed_seconds_state": 566.3364720344543,
+        "state_elapsed_scope": "Current training process including validation, saving and diagnostics; excludes local checkpoint downloads and total multi-seed suite wall time.",
+        "timing_scope": "Logged training steps; excludes validation/checkpoint/archive. State elapsed and utility-head change may cover only the last resume segment.",
+        "all_logged_losses_and_gradient_norms_finite": true,
+        "peak_cuda_allocated_bytes": 6845809152,
+        "peak_cuda_reserved_bytes": 7245660160,
+        "validation_final_daily_accuracy": 0.9449999928474426
+      },
+      "daily": {
+        "successes": 1505,
+        "n": 1600,
+        "accuracy": 0.940625,
+        "wilson_95": [
+          0.927955734460087,
+          0.95118352973924
+        ]
+      },
+      "frozen_test_experience": {
+        "successes": 300,
+        "n": 300,
+        "accuracy": 1.0,
+        "wilson_95": [
+          0.9873570287754538,
+          0.9999999999999998
+        ]
+      },
+      "unknown_known_utility_tie_optimality": 1.0,
+      "unknown_hidden_control_frozen_test_subset": {
+        "successes": 39,
+        "n": 100,
+        "accuracy": 0.39,
+        "wilson_95": [
+          0.3001687400639441,
+          0.4879698295415926
+        ],
+        "binary_nll": 0.7075493059198537,
+        "binary_brier": 0.25718492962943995,
+        "mean_abs_p_minus_half": 0.02715968430042267
+      },
+      "action_execution": {
+        "n": 2000,
+        "arrived": 2000,
+        "completed": 2000,
+        "completion_rate": 1.0,
+        "completion_wilson_95": [
+          0.9980829527187469,
+          0.9999999999999998
+        ],
+        "mean_realized_simulator_reward": 1.2210068064889819,
+        "mean_myopic_simulator_reward": 1.1298656934155475,
+        "scope": "BFS navigation, known preconditions and abstract activity simulator; not learned motor control",
+        "fixed_weight_cuda_inference_seconds": 1.8664792320014385,
+        "fixed_weight_cuda_scenes_per_compute_second": 1071.5361659049302,
+        "inference_batch_size": 64,
+        "full_64_batch_median_seconds": 0.05631536000146298,
+        "inference_timing_scope": "GPU forward batch timing; not measured single-scene real-time latency."
+      },
+      "raw_known_choice_ece_15_equal_frequency": 0.025789419726321587,
+      "ece_scope": "Raw confidence on 1900 known test scenes; equal-frequency 15 bins; no temperature fit.",
+      "failure_count_positive_teacher_regret": 95,
+      "diagnostics": {
+        "paired_history": {
+          "original_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "swapped_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "both_correct_and_flip": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "clear_memory_forced_accuracy": {
+            "successes": 100,
+            "n": 200,
+            "accuracy": 0.5,
+            "wilson_95": [
+              0.43136085960389187,
+              0.5686391403961082
+            ]
+          }
+        },
+        "unknown_hidden_preference": {
+          "successes": 958,
+          "n": 2000,
+          "accuracy": 0.479,
+          "wilson_95": [
+            0.4571674890056885,
+            0.500913026980124
+          ],
+          "chance_accuracy": 0.5,
+          "chance_in_wilson_95": true,
+          "binary_nll": 0.6970359770724476,
+          "binary_brier": 0.2519389192806315,
+          "mean_abs_probability_minus_half": 0.026782244175672532,
+          "max_probability_at_least_point9_fraction": 0.0,
+          "reference_uniform_binary_nll": 0.6931471805599453,
+          "reference_uniform_binary_brier": 0.25,
+          "source": "Separate 2000-trial diagnostic aggregates, not the 100 tied frozen-test scenes."
+        },
+        "nonmemory_current_inputs_equal": true,
+        "no_feedback_sentinel_equal": true,
+        "bf16_permutation_probability_max_abs_diff": 6.474344991147518e-05,
+        "meets_legacy_1e_minus6_permutation_threshold": false
+      },
+      "test_metrics_from_training_state": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.95250004529953,
+        "mean_utility_regret": 0.0035730840172618628,
+        "choice_nll": 0.17415854334831238,
+        "multiclass_brier_sum": 0.07018927484750748,
+        "utility_mae": 0.22793704271316528,
+        "need_delta_mae": 0.02304116263985634,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.9406249523162842,
+            "mean_regret": 0.004466354846954346,
+            "nll": 0.17354978621006012
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.003785928478464484
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.6950163841247559
+          }
+        }
+      },
+      "cleared_memory_against_original_full_information_teacher": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.7470000386238098,
+        "mean_utility_regret": 0.15499527752399445,
+        "choice_nll": 1.052727460861206,
+        "multiclass_brier_sum": 0.39761728048324585,
+        "utility_mae": 0.35978761315345764,
+        "need_delta_mae": 0.021880988031625748,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.7768749594688416,
+            "mean_regret": 0.07268159091472626,
+            "nll": 1.1419634819030762
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 0.503333330154419,
+            "mean_regret": 0.6456666588783264,
+            "nll": 0.6960383057594299
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.6950163841247559
+          }
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "parameters": 308487175,
+      "trainable_parameters": 308487175,
+      "training": {
+        "unique_optimizer_steps": 948,
+        "duplicate_log_step_records": 0,
+        "complete_epochs": 12,
+        "independent_training_scenarios": 10000,
+        "scenario_presentations": 120000,
+        "logged_unique_step_seconds": 485.232157696013,
+        "scenario_presentations_per_compute_second": 247.30430186199095,
+        "full_128_batch_step_median_seconds": 0.5127591519999442,
+        "full_128_batch_step_mean_seconds": 0.514255694017105,
+        "elapsed_seconds_state": 568.9724295139313,
+        "state_elapsed_scope": "Current training process including validation, saving and diagnostics; excludes local checkpoint downloads and total multi-seed suite wall time.",
+        "timing_scope": "Logged training steps; excludes validation/checkpoint/archive. State elapsed and utility-head change may cover only the last resume segment.",
+        "all_logged_losses_and_gradient_norms_finite": true,
+        "peak_cuda_allocated_bytes": 6845809152,
+        "peak_cuda_reserved_bytes": 7245660160,
+        "validation_final_daily_accuracy": 0.9274999499320984
+      },
+      "daily": {
+        "successes": 1506,
+        "n": 1600,
+        "accuracy": 0.94125,
+        "wilson_95": [
+          0.9286360751665358,
+          0.9517501950813009
+        ]
+      },
+      "frozen_test_experience": {
+        "successes": 300,
+        "n": 300,
+        "accuracy": 1.0,
+        "wilson_95": [
+          0.9873570287754538,
+          0.9999999999999998
+        ]
+      },
+      "unknown_known_utility_tie_optimality": 1.0,
+      "unknown_hidden_control_frozen_test_subset": {
+        "successes": 45,
+        "n": 100,
+        "accuracy": 0.45,
+        "wilson_95": [
+          0.3561453797951198,
+          0.5475539700255787
+        ],
+        "binary_nll": 0.6971807519565923,
+        "binary_brier": 0.25201887557486397,
+        "mean_abs_p_minus_half": 0.026456815600395204
+      },
+      "action_execution": {
+        "n": 2000,
+        "arrived": 2000,
+        "completed": 2000,
+        "completion_rate": 1.0,
+        "completion_wilson_95": [
+          0.9980829527187469,
+          0.9999999999999998
+        ],
+        "mean_realized_simulator_reward": 1.2248761098705707,
+        "mean_myopic_simulator_reward": 1.1337349967971364,
+        "scope": "BFS navigation, known preconditions and abstract activity simulator; not learned motor control",
+        "fixed_weight_cuda_inference_seconds": 1.859370719994331,
+        "fixed_weight_cuda_scenes_per_compute_second": 1075.632728047959,
+        "inference_batch_size": 64,
+        "full_64_batch_median_seconds": 0.056173184000726906,
+        "inference_timing_scope": "GPU forward batch timing; not measured single-scene real-time latency."
+      },
+      "raw_known_choice_ece_15_equal_frequency": 0.026017962254975973,
+      "ece_scope": "Raw confidence on 1900 known test scenes; equal-frequency 15 bins; no temperature fit.",
+      "failure_count_positive_teacher_regret": 94,
+      "diagnostics": {
+        "paired_history": {
+          "original_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "swapped_accuracy": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "both_correct_and_flip": {
+            "successes": 200,
+            "n": 200,
+            "accuracy": 1.0,
+            "wilson_95": [
+              0.9811546736227335,
+              1.0
+            ]
+          },
+          "clear_memory_forced_accuracy": {
+            "successes": 100,
+            "n": 200,
+            "accuracy": 0.5,
+            "wilson_95": [
+              0.43136085960389187,
+              0.5686391403961082
+            ]
+          }
+        },
+        "unknown_hidden_preference": {
+          "successes": 1002,
+          "n": 2000,
+          "accuracy": 0.501,
+          "wilson_95": [
+            0.4791060774040939,
+            0.5228900885013437
+          ],
+          "chance_accuracy": 0.5,
+          "chance_in_wilson_95": true,
+          "binary_nll": 0.697371713601215,
+          "binary_brier": 0.25209961196617675,
+          "mean_abs_probability_minus_half": 0.024389600910246372,
+          "max_probability_at_least_point9_fraction": 0.0,
+          "reference_uniform_binary_nll": 0.6931471805599453,
+          "reference_uniform_binary_brier": 0.25,
+          "source": "Separate 2000-trial diagnostic aggregates, not the 100 tied frozen-test scenes."
+        },
+        "nonmemory_current_inputs_equal": true,
+        "no_feedback_sentinel_equal": true,
+        "bf16_permutation_probability_max_abs_diff": 2.9785092920064926e-05,
+        "meets_legacy_1e_minus6_permutation_threshold": false
+      },
+      "test_metrics_from_training_state": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.9530000686645508,
+        "mean_utility_regret": 0.004267486277967691,
+        "choice_nll": 0.19951553642749786,
+        "multiclass_brier_sum": 0.07520924508571625,
+        "utility_mae": 0.22737586498260498,
+        "need_delta_mae": 0.02490640990436077,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.9412499666213989,
+            "mean_regret": 0.005334356799721718,
+            "nll": 0.20543107390403748
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.0026768359821289778
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.695382833480835
+          }
+        }
+      },
+      "cleared_memory_against_original_full_information_teacher": {
+        "n": 2000,
+        "tie_aware_choice_accuracy": 0.752500057220459,
+        "mean_utility_regret": 0.1497655063867569,
+        "choice_nll": 1.079641342163086,
+        "multiclass_brier_sum": 0.39452069997787476,
+        "utility_mae": 0.3677951395511627,
+        "need_delta_mae": 0.023977339267730713,
+        "illegal_selection_count": 0,
+        "by_variant": {
+          "daily": {
+            "n": 1600,
+            "tie_aware_accuracy": 0.78187495470047,
+            "mean_regret": 0.06858187168836594,
+            "nll": 1.1757092475891113
+          },
+          "experience_pair": {
+            "n": 300,
+            "tie_aware_accuracy": 0.5133333206176758,
+            "mean_regret": 0.6326666474342346,
+            "nll": 0.6953651905059814
+          },
+          "unknown_tie": {
+            "n": 100,
+            "tie_aware_accuracy": 1.0,
+            "mean_regret": 0.0,
+            "nll": 0.695382833480835
+          }
+        }
+      }
+    }
+  ]
+}

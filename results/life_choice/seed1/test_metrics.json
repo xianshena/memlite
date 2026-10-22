@@ -1,0 +1,30 @@
+{
+  "n": 2000,
+  "tie_aware_choice_accuracy": 0.95250004529953,
+  "mean_utility_regret": 0.0035730840172618628,
+  "choice_nll": 0.17415854334831238,
+  "multiclass_brier_sum": 0.07018927484750748,
+  "utility_mae": 0.22793704271316528,
+  "need_delta_mae": 0.02304116263985634,
+  "illegal_selection_count": 0,
+  "by_variant": {
+    "daily": {
+      "n": 1600,
+      "tie_aware_accuracy": 0.9406249523162842,
+      "mean_regret": 0.004466354846954346,
+      "nll": 0.17354978621006012
+    },
+    "experience_pair": {
+      "n": 300,
+      "tie_aware_accuracy": 1.0,
+      "mean_regret": 0.0,
+      "nll": 0.003785928478464484
+    },
+    "unknown_tie": {
+      "n": 100,
+      "tie_aware_accuracy": 1.0,
+      "mean_regret": 0.0,
+      "nll": 0.6950163841247559
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "unknown": {
+    "candidate_probabilities": [
+      0.5,
+      0.5
+    ],
+    "selected_index": -1,
+    "selected_marker": 0,
+    "expected_return": [
+      null,
+      null
+    ],
+    "attribute_belief": [
+      null,
+      null
+    ],
+    "position_distribution": [
+      {
+        "last_known_point": null,
+        "calibrated": false
+      },
+      {
+        "last_known_point": null,
+        "calibrated": false
+      }
+    ],
+    "insufficient_evidence": 1,
+    "action": [
+      1,
+      927549707443295
+    ]
+  },
+  "capacity_failures": [
+    {
+      "budget_kib": 32,
+      "distractor_events": 64,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 32552,
+      "max_serialized_bytes": 5527,
+      "total_evictions": 670,
+      "mean_history_latency_ms": 170.10722,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 32,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 32580,
+      "max_serialized_bytes": 5594,
+      "total_evictions": 4510,
+      "mean_history_latency_ms": 996.7342799999999,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 64,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 65528,
+      "max_serialized_bytes": 11364,
+      "total_evictions": 3840,
+      "mean_history_latency_ms": 1782.33124,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 192,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 196152,
+      "max_serialized_bytes": 31187,
+      "total_evictions": 1510,
+      "mean_history_latency_ms": 2667.5052299999998,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    }
+  ],
+  "unknown_semantics": "action 0 abstains; action 1 probes within budget; force=True is scored separately"
+}

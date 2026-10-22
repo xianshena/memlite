@@ -1,0 +1,1105 @@
+[
+  {
+    "episode_seed": 300000,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0035538598895072937,
+      0.0,
+      0.9964461922645569,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 4,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          5.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          5.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          4.5,
+          0.0
+        ],
+        [
+          2.5,
+          4.5,
+          0.0
+        ],
+        [
+          2.5,
+          3.5,
+          0.0
+        ],
+        [
+          2.5,
+          2.5,
+          0.0
+        ],
+        [
+          2.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.554,
+      "myopic_realized_reward": 0.554,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        2.5,
+        1.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300001,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.003437241306528449,
+      0.9965627789497375,
+      0.0,
+      0.0
+    ],
+    "selected_index": 9,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          6.5,
+          3.5,
+          0.0
+        ],
+        [
+          6.5,
+          4.5,
+          0.0
+        ],
+        [
+          5.5,
+          4.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          4.5,
+          0.0
+        ],
+        [
+          2.5,
+          4.5,
+          0.0
+        ],
+        [
+          1.5,
+          4.5,
+          0.0
+        ],
+        [
+          1.5,
+          3.5,
+          0.0
+        ],
+        [
+          1.5,
+          2.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.542,
+      "myopic_realized_reward": 0.542,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        1.5,
+        1.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300002,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9961585402488708,
+      0.0,
+      0.003841529367491603,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 4,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          1.5,
+          1.5,
+          0.0
+        ],
+        [
+          2.5,
+          1.5,
+          0.0
+        ],
+        [
+          3.5,
+          1.5,
+          0.0
+        ],
+        [
+          4.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.614,
+      "myopic_realized_reward": 0.614,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        4.5,
+        1.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300003,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0,
+      0.996748685836792,
+      0.0,
+      0.0,
+      0.0,
+      0.0032512906473129988,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 3,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          4.5,
+          2.5,
+          0.0
+        ],
+        [
+          3.5,
+          2.5,
+          0.0
+        ],
+        [
+          2.5,
+          2.5,
+          0.0
+        ],
+        [
+          1.5,
+          2.5,
+          0.0
+        ],
+        [
+          0.5,
+          2.5,
+          0.0
+        ],
+        [
+          0.5,
+          1.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.5780000000000001,
+      "myopic_realized_reward": 0.5780000000000001,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        0.5,
+        0.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300004,
+    "probabilities": [
+      0.9961155652999878,
+      0.0,
+      0.0038844766095280647,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 0,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          8.5,
+          4.5,
+          0.0
+        ],
+        [
+          7.5,
+          4.5,
+          0.0
+        ],
+        [
+          6.5,
+          4.5,
+          0.0
+        ],
+        [
+          5.5,
+          4.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.602,
+      "myopic_realized_reward": 0.602,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        4.5,
+        4.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300005,
+    "probabilities": [
+      0.0,
+      0.004341138992458582,
+      0.0,
+      0.0,
+      0.9956588745117188,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 4,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          3.5,
+          0.5,
+          0.0
+        ],
+        [
+          2.5,
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.0
+        ],
+        [
+          1.5,
+          2.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.602,
+      "myopic_realized_reward": 0.602,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        1.5,
+        2.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300006,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.004293166566640139,
+      0.0,
+      0.9957068562507629,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 4,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          0.5,
+          1.5,
+          0.0
+        ],
+        [
+          0.5,
+          2.5,
+          0.0
+        ],
+        [
+          1.5,
+          2.5,
+          0.0
+        ],
+        [
+          1.5,
+          3.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.614,
+      "myopic_realized_reward": 0.614,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        1.5,
+        3.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300007,
+    "probabilities": [
+      0.003399223554879427,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9966008067131042,
+      0.0
+    ],
+    "selected_index": 10,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          7.5,
+          9.5,
+          0.0
+        ],
+        [
+          6.5,
+          9.5,
+          0.0
+        ],
+        [
+          6.5,
+          8.5,
+          0.0
+        ],
+        [
+          6.5,
+          7.5,
+          0.0
+        ],
+        [
+          5.5,
+          7.5,
+          0.0
+        ],
+        [
+          4.5,
+          7.5,
+          0.0
+        ],
+        [
+          4.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          5.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          3.5,
+          0.0
+        ],
+        [
+          3.5,
+          2.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.518,
+      "myopic_realized_reward": 0.518,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        3.5,
+        2.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300008,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9956588745117188,
+      0.004341138992458582,
+      0.0
+    ],
+    "selected_index": 9,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          4.5,
+          0.5,
+          0.0
+        ],
+        [
+          3.5,
+          0.5,
+          0.0
+        ],
+        [
+          2.5,
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.602,
+      "myopic_realized_reward": 0.602,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        1.5,
+        1.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300009,
+    "probabilities": [
+      0.0,
+      0.0,
+      0.0,
+      0.002876747166737914,
+      0.0,
+      0.0,
+      0.9971231818199158,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 6,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          4.5,
+          8.5,
+          0.0
+        ],
+        [
+          4.5,
+          7.5,
+          0.0
+        ],
+        [
+          4.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          5.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          4.5,
+          3.5,
+          0.0
+        ],
+        [
+          4.5,
+          2.5,
+          0.0
+        ],
+        [
+          4.5,
+          1.5,
+          0.0
+        ],
+        [
+          4.5,
+          0.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.554,
+      "myopic_realized_reward": 0.554,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        4.5,
+        0.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300010,
+    "probabilities": [
+      0.0036337883211672306,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9963661432266235,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 8,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          7.5,
+          6.5,
+          0.0
+        ],
+        [
+          6.5,
+          6.5,
+          0.0
+        ],
+        [
+          5.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          6.5,
+          0.0
+        ],
+        [
+          4.5,
+          5.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          4.5,
+          0.0
+        ],
+        [
+          2.5,
+          4.5,
+          0.0
+        ],
+        [
+          1.5,
+          4.5,
+          0.0
+        ],
+        [
+          1.5,
+          3.5,
+          0.0
+        ],
+        [
+          1.5,
+          2.5,
+          0.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.518,
+      "myopic_realized_reward": 0.518,
+      "planning_value": 0.0,
+      "action": "drink",
+      "destination": [
+        1.5,
+        1.5,
+        0.95
+      ],
+      "resources_after": {
+        "meal_prepared": true,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  },
+  {
+    "episode_seed": 300011,
+    "probabilities": [
+      0.0,
+      0.0036744200624525547,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9963255524635315,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "selected_index": 6,
+    "execution": {
+      "arrived": true,
+      "completed": true,
+      "path": [
+        [
+          6.5,
+          3.5,
+          0.0
+        ],
+        [
+          6.5,
+          4.5,
+          0.0
+        ],
+        [
+          5.5,
+          4.5,
+          0.0
+        ],
+        [
+          4.5,
+          4.5,
+          0.0
+        ],
+        [
+          3.5,
+          4.5,
+          0.0
+        ],
+        [
+          2.5,
+          4.5,
+          0.0
+        ],
+        [
+          1.5,
+          4.5,
+          0.0
+        ],
+        [
+          0.5,
+          4.5,
+          0.0
+        ],
+        [
+          0.5,
+          3.5,
+          0.0
+        ]
+      ],
+      "end_body": [
+        0.0,
+        0.0,
+        0.0,
+        0.019999999552965164,
+        0.0,
+        0.0
+      ],
+      "feedback": 1.0,
+      "realized_reward": 0.554,
+      "myopic_realized_reward": 0.554,
+      "planning_value": 0.0,
+      "action": "eat",
+      "destination": [
+        0.5,
+        3.5,
+        0.78
+      ],
+      "resources_after": {
+        "meal_prepared": false,
+        "ingredients_available": true,
+        "water_available": true
+      },
+      "completion_requires": [
+        "valid_path",
+        "arrived",
+        "resource_available",
+        "prerequisite_met",
+        "vertical_reach"
+      ]
+    }
+  }
+]

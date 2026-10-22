@@ -1,0 +1,363 @@
+{
+  "scope": "structured 3D environment / deterministic memory controls only",
+  "gates": {
+    "G0": "PASS",
+    "G1a": "PASS",
+    "G1b": "NOT_RUN",
+    "G2_G6": "NOT_ACCEPTED"
+  },
+  "chance": {
+    "successes": 983,
+    "n": 2000,
+    "accuracy": 0.4915,
+    "ci95": [
+      0.46962740321749985,
+      0.5134051865862813
+    ],
+    "label_counts": [
+      1031,
+      969
+    ],
+    "unique_independent_inputs": 2000,
+    "seed_range": [
+      1000000,
+      1001999
+    ],
+    "sampling": "independent fair hidden bit per episode; one +1 and one -1 target",
+    "forced_choice": true,
+    "chance_accuracy_gate": true,
+    "probability_uncertainty_gate": "NOT_ESTABLISHED_FOR_LEARNED_MODELS"
+  },
+  "pilot": {
+    "baselines": {
+      "explicit_object_store": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "last_observation": {
+        "successes": 48,
+        "n": 100,
+        "accuracy": 0.48,
+        "ci95": [
+          0.384645517580519,
+          0.5768342223477603
+        ]
+      },
+      "no_memory": {
+        "successes": 48,
+        "n": 100,
+        "accuracy": 0.48,
+        "ci95": [
+          0.384645517580519,
+          0.5768342223477603
+        ]
+      },
+      "swapped_feedback": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "cleared_memory": {
+        "successes": 48,
+        "n": 100,
+        "accuracy": 0.48,
+        "ci95": [
+          0.384645517580519,
+          0.5768342223477603
+        ]
+      },
+      "cross_episode_shuffled_memory": {
+        "successes": 48,
+        "n": 100,
+        "accuracy": 0.48,
+        "ci95": [
+          0.384645517580519,
+          0.5768342223477603
+        ]
+      }
+    },
+    "controls": {
+      "paired_feedback_flip": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "candidate_permutation": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "subject_isolation": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "observed_value_update": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "explicit_invalidation": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      },
+      "spatial_motion_occlusion": {
+        "successes": 100,
+        "n": 100,
+        "accuracy": 1.0,
+        "ci95": [
+          0.9630065017930143,
+          1.0
+        ]
+      }
+    },
+    "known_position_p95_m": 0.0,
+    "max_persistent_heap_bytes": 5816,
+    "max_serialized_payload_bytes": 1014,
+    "latency_ms": {
+      "median": 0.0389,
+      "p95": 0.0596
+    },
+    "parameter_count": 0,
+    "trainable_parameter_count": 0,
+    "deterministic_pass": true
+  },
+  "capacity": [
+    {
+      "budget_kib": 32,
+      "distractor_events": 4,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 5816,
+      "max_serialized_bytes": 1008,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 1.3930500000000001,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 32,
+      "distractor_events": 16,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 17576,
+      "max_serialized_bytes": 3036,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 8.66936,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 32,
+      "distractor_events": 64,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 32552,
+      "max_serialized_bytes": 5527,
+      "total_evictions": 670,
+      "mean_history_latency_ms": 170.10722,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 32,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 32580,
+      "max_serialized_bytes": 5594,
+      "total_evictions": 4510,
+      "mean_history_latency_ms": 996.7342799999999,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 64,
+      "distractor_events": 4,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 5816,
+      "max_serialized_bytes": 1008,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 1.6806800000000002,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 64,
+      "distractor_events": 16,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 17576,
+      "max_serialized_bytes": 3036,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 8.3551,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 64,
+      "distractor_events": 64,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 65128,
+      "max_serialized_bytes": 11136,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 96.99736999999999,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 64,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 65528,
+      "max_serialized_bytes": 11364,
+      "total_evictions": 3840,
+      "mean_history_latency_ms": 1782.33124,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 192,
+      "distractor_events": 4,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 5816,
+      "max_serialized_bytes": 1008,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 1.47676,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 192,
+      "distractor_events": 16,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 17576,
+      "max_serialized_bytes": 3036,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 8.890260000000001,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 192,
+      "distractor_events": 64,
+      "successes": 10,
+      "n": 10,
+      "accuracy": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "max_heap_bytes": 65128,
+      "max_serialized_bytes": 11136,
+      "total_evictions": 0,
+      "mean_history_latency_ms": 102.34383999999999,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    },
+    {
+      "budget_kib": 192,
+      "distractor_events": 256,
+      "successes": 4,
+      "n": 10,
+      "accuracy": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "max_heap_bytes": 196152,
+      "max_serialized_bytes": 31187,
+      "total_evictions": 1510,
+      "mean_history_latency_ms": 2667.5052299999998,
+      "scope": "capacity diagnostic; not G3 learning acceptance"
+    }
+  ],
+  "limitations": [
+    "diagnostic identity tags; no learned tracking",
+    "center-ray sphere sensor; no RGB-D or pointcloud",
+    "deterministic lookup probabilities; not calibrated learned predictions",
+    "100 pilot episodes and 10 capacity seeds; not G2/G3/G4 statistical acceptance",
+    "no training or hardware test; no Jev reproduction"
+  ],
+  "runtime_scope": {
+    "device": "CPU",
+    "elapsed_seconds": 77.12380119998124,
+    "tracemalloc_peak_bytes": 7249879,
+    "peak_scope": "Python allocations for pilot/chance/capacity; excludes later freeze"
+  },
+  "public_projection_note": "Pilot latency is from the instrumented deterministic evaluator; do not treat it as a learned-model or device throughput benchmark."
+}

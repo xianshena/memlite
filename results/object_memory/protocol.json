@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "scope": [
+    "G0",
+    "G1a"
+  ],
+  "pilot_seeds": [
+    0,
+    99
+  ],
+  "pilot_n": 100,
+  "chance_seeds": [
+    1000000,
+    1001999
+  ],
+  "chance_n": 2000,
+  "capacity_seeds": [
+    2000000,
+    2000009
+  ],
+  "budgets_kib": [
+    32,
+    64,
+    192
+  ],
+  "distractors": [
+    4,
+    16,
+    64,
+    256
+  ],
+  "source_commit_base": "51bbc74",
+  "chance_range": [
+    0.45,
+    0.55
+  ],
+  "deterministic_controls_required": 1.0,
+  "hidden_truth_policy": "evaluation only; ModelInput accepts six whitelisted numeric fields",
+  "training_started": false,
+  "learned_probability_calibration_claimed": false
+}
