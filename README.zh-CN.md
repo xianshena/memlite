@@ -2,7 +2,7 @@
 
 # MemLite：可复核的记忆条件决策实验
 
-[English](README.md) · [结果与限制](docs/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
+[English](README.md) · [结果与限制](docs/RESULTS.md) · [复现说明](docs/REPRODUCING.md) · [中文实验总索引](docs/EXPERIMENTS.zh-CN.md)
 
 这是一个学习驱动的早期项目：在合成场景中，观察显式经验记忆怎样改变选择。
 仓库提供零参数 CPU 示例、308M 模型三种子训练的既有记录、消融以及逐决策审计工具。
@@ -57,3 +57,4 @@ CPU 示例为显式状态表，没有可训练参数；它不代表重新训练�
 源码与文档采用 [MIT](LICENSE)，合成数据和数值记录的范围见 [DATA_LICENSE](DATA_LICENSE.md)。
 第三方依赖保留其原许可，详见 [声明](THIRD_PARTY_NOTICES.md)。不包含大权重、私人聊天、
 申报个人资料、凭据、公司代码或角色插图。
+

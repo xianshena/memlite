@@ -17,6 +17,36 @@
       "sha256": "faf0e489397ed79837532c3a2113280f331d058961f5c7285b8859f69e0d515c"
     },
     {
+      "path": "CONTRIBUTING.md",
+      "bytes": 722,
+      "sha256": "4fb4db87195a340d104f1dcec47665cbbfec987a969593eb8f7a8305552d3e46"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 667,
+      "sha256": "b268cf82cfd20915c27f51762e84a166f0556a6e95e45abd1a3340bf562b00a1"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "a9c06ab6bb2efe17ee05ad7e5724fb6933c57226b554ed56d4269814a2bdc6a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4354,
+      "sha256": "2d4f45d979fd636994e30b488e87b5971f760c4cfc59022ef1296ef4e4fdb892"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 3214,
+      "sha256": "aa18d87dd0c64aa2b34c000195fb60ea273395be19e6fd04bfee9538aa85f9a5"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1315,
+      "sha256": "601eff57943264aecaf966c0be18784b49b3ecca145422e8cfebbdd81c126880"
+    },
+    {
       "path": "appendix/teacher_scaling.json",
       "bytes": 3148,
       "sha256": "c5810c05b25186219f556574150c85509ba13c5d68979c8f94da0bd882191c66"
@@ -25,11 +55,6 @@
       "path": "assets/header.svg",
       "bytes": 1019,
       "sha256": "a07c9367b820b5fd88204ca089e0e3ba911c7f6b397059f93c0f838a7f494b26"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "bytes": 722,
-      "sha256": "4fb4db87195a340d104f1dcec47665cbbfec987a969593eb8f7a8305552d3e46"
     },
     {
       "path": "data/life_choice/manifest.json",
@@ -62,9 +87,9 @@
       "sha256": "d8488d332350f5756e407dc28a9795971b67fc641fbf2dbcba37bc375b433b2d"
     },
     {
-      "path": "DATA_LICENSE.md",
-      "bytes": 667,
-      "sha256": "b268cf82cfd20915c27f51762e84a166f0556a6e95e45abd1a3340bf562b00a1"
+      "path": "docs/EXPERIMENTS.zh-CN.md",
+      "bytes": 6416,
+      "sha256": "67053a0fa5d7ec02d26f85116adae75a556fbd7c1a1c6fd752fffb6d1c2d44a4"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -82,6 +107,36 @@
       "sha256": "62ed4d22500d1fbeb03dccf6a4c9e1931aa615afb1f6e0e454a6eee93a0f0dc3"
     },
     {
+      "path": "docs/experiments/microscope-20261027/README.zh-CN.md",
+      "bytes": 5315,
+      "sha256": "3b8b20f03de4c6afca5c73de1dbb1075956dd6f3017800a9e8883b328e6d8b48"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/methods-and-limits.md",
+      "bytes": 3970,
+      "sha256": "7bdfec140b13738d8c4710a7c4f25148a21f596b0b3f4f81cbe1220bdf50a163"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/sources.md",
+      "bytes": 3184,
+      "sha256": "b636452534101d8fc29e950de81abd65277559c9b6648e6c51a19e73c32c2c94"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/stages.md",
+      "bytes": 4313,
+      "sha256": "322a98b6da8295e7c823d9883b881543fae1942917b53cc1a35220e1cd55cc5a"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/summary.csv",
+      "bytes": 1136,
+      "sha256": "73744c680f4768b4a7e4010cfcb1e1ad888eebb56dcfe9be03f19172b7ba0eb4"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/summary.json",
+      "bytes": 12885,
+      "sha256": "74c5a77744ce957c831f2a71616ffc13adbc433164a046f0bebe507d220cd4ef"
+    },
+    {
       "path": "docs/source_to_preview_map.json",
       "bytes": 22728,
       "sha256": "f3b63f6940d9b69359a2916d821e11831c3c5ac9a6cbed3767db65ff8d87adc0"
@@ -97,9 +152,9 @@
       "sha256": "faec295b75b27364b3a7df6a91d3137fb610477f2603ce376c3eac8cc4fed60b"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1066,
-      "sha256": "a9c06ab6bb2efe17ee05ad7e5724fb6933c57226b554ed56d4269814a2bdc6a4"
+      "path": "life_choice/README.md",
+      "bytes": 199,
+      "sha256": "fa53eed915d0d4b49de8cf35cdc3d146d9138a78667a026316e45272415194da"
     },
     {
       "path": "life_choice/__init__.py",
@@ -117,14 +172,14 @@
       "sha256": "92fffb8540529e3c760bf1a9dd6c2e83f6b8aac94f53114e6917541914f3d25f"
     },
     {
-      "path": "life_choice/README.md",
-      "bytes": 199,
-      "sha256": "fa53eed915d0d4b49de8cf35cdc3d146d9138a78667a026316e45272415194da"
-    },
-    {
       "path": "life_choice/train_gpu.py",
       "bytes": 17484,
       "sha256": "46490f882dab781851075af7e1355040f122a2c52f84f1991d3ed690cca5718d"
+    },
+    {
+      "path": "object_memory/README.md",
+      "bytes": 157,
+      "sha256": "114ffd14fa113d17c1e099b184414d4aee6793df41baa391d7855f02730a92b3"
     },
     {
       "path": "object_memory/__init__.py",
@@ -157,24 +212,9 @@
       "sha256": "4bf83ec8fd52cd50cc4c787e141acb97a3173d56a448b360323ee30657a78074"
     },
     {
-      "path": "object_memory/README.md",
-      "bytes": 157,
-      "sha256": "114ffd14fa113d17c1e099b184414d4aee6793df41baa391d7855f02730a92b3"
-    },
-    {
       "path": "protocols/life_choice_original.json",
       "bytes": 2227,
       "sha256": "cf7cec0ee67030b563ab5af73260a1050fa632f6682f89c4649c31f7a9d1c72f"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4354,
-      "sha256": "2d4f45d979fd636994e30b488e87b5971f760c4cfc59022ef1296ef4e4fdb892"
-    },
-    {
-      "path": "README.zh-CN.md",
-      "bytes": 3159,
-      "sha256": "7ebd51d57c8e9cf7f5f640565abb954fb956d6975fba5c10065da317ea6c1e35"
     },
     {
       "path": "requirements-cpu.txt",
@@ -382,11 +422,6 @@
       "sha256": "89f350e8b0ca6195d2908c69545719e19e631fb999022d40fb5c6b2c62b6ff95"
     },
     {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1315,
-      "sha256": "601eff57943264aecaf966c0be18784b49b3ecca145422e8cfebbdd81c126880"
-    },
-    {
       "path": "verify_archive.py",
       "bytes": 751,
       "sha256": "d821cbd74ad403e7ca4b48400dd43d07ae458e651d8b65981b1002534d80afee"
@@ -396,5 +431,6 @@
     "manifest.json",
     "SHA256SUMS.txt"
   ],
-  "new_neural_training": false
+  "new_neural_training": false,
+  "documentation_update": "2026-10-27; source and historical records unchanged"
 }

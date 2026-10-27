@@ -1,0 +1,461 @@
+{
+  "schema": "microscope-doc-statistics-v1",
+  "updated": "2026-10-27",
+  "scope": "Documentation and anonymized aggregate statistics; no raw examples, predictions, weights or source release.",
+  "dataset_rows": {
+    "A": {
+      "train": {
+        "rows": 20000,
+        "pairs": 0,
+        "episodes": null
+      },
+      "validation": {
+        "rows": 3000,
+        "pairs": 0,
+        "episodes": null
+      },
+      "test": {
+        "rows": 1200,
+        "pairs": 600,
+        "episodes": null
+      }
+    },
+    "B1": {
+      "train": {
+        "rows": 12000,
+        "pairs": 6000,
+        "episodes": null
+      },
+      "validation": {
+        "rows": 1500,
+        "pairs": 750,
+        "episodes": null
+      },
+      "test": {
+        "rows": 864,
+        "pairs": 432,
+        "episodes": null
+      }
+    },
+    "B2": {
+      "train": {
+        "rows": 12000,
+        "pairs": null,
+        "episodes": null
+      },
+      "validation": {
+        "rows": 1500,
+        "pairs": null,
+        "episodes": null
+      },
+      "test": {
+        "rows": 1536,
+        "pairs": null,
+        "episodes": 384
+      }
+    }
+  },
+  "models": [
+    {
+      "task": "A",
+      "kind": "bagchars",
+      "seeds": 3,
+      "parameters": 12687,
+      "exact_mean": 0.16833333333333333,
+      "exact_min": 0.12583333333333332,
+      "exact_max": 0.22416666666666665,
+      "paired_mean": 0.02388888888888889
+    },
+    {
+      "task": "A",
+      "kind": "cnn",
+      "seeds": 3,
+      "parameters": 862767,
+      "exact_mean": 0.7644444444444445,
+      "exact_min": 0.6858333333333333,
+      "exact_max": 0.8283333333333334,
+      "paired_mean": 0.6661111111111111
+    },
+    {
+      "task": "A",
+      "kind": "gru",
+      "seeds": 3,
+      "parameters": 923151,
+      "exact_mean": 0.7294444444444445,
+      "exact_min": 0.7283333333333334,
+      "exact_max": 0.73,
+      "paired_mean": 0.6705555555555556
+    },
+    {
+      "task": "A",
+      "kind": "transformer",
+      "seeds": 3,
+      "parameters": 948975,
+      "exact_mean": 0.9708333333333333,
+      "exact_min": 0.9591666666666666,
+      "exact_max": 0.9941666666666666,
+      "paired_mean": 0.9494444444444444
+    },
+    {
+      "task": "B1",
+      "kind": "coupled",
+      "seeds": 3,
+      "parameters": 1065825,
+      "exact_mean": 0.16666666666666666,
+      "exact_min": 0.16666666666666666,
+      "exact_max": 0.16666666666666666,
+      "paired_mean": 0.0
+    },
+    {
+      "task": "B1",
+      "kind": "separate",
+      "seeds": 3,
+      "parameters": 1065825,
+      "exact_mean": 0.16666666666666666,
+      "exact_min": 0.16666666666666666,
+      "exact_max": 0.16666666666666666,
+      "paired_mean": 0.0
+    },
+    {
+      "task": "B1",
+      "kind": "transformer",
+      "seeds": 3,
+      "parameters": 1073937,
+      "exact_mean": 0.16666666666666666,
+      "exact_min": 0.16666666666666666,
+      "exact_max": 0.16666666666666666,
+      "paired_mean": 0.0
+    },
+    {
+      "task": "B2",
+      "kind": "gru",
+      "seeds": 3,
+      "parameters": 954296,
+      "exact_mean": 0.008246527777777778,
+      "exact_min": 0.0078125,
+      "exact_max": 0.009114583333333334,
+      "paired_mean": 0.0
+    },
+    {
+      "task": "B2",
+      "kind": "matrix",
+      "seeds": 3,
+      "parameters": 1082616,
+      "exact_mean": 0.008680555555555556,
+      "exact_min": 0.0078125,
+      "exact_max": 0.009765625,
+      "paired_mean": 0.0
+    },
+    {
+      "task": "B2",
+      "kind": "transformer",
+      "seeds": 3,
+      "parameters": 934392,
+      "exact_mean": 0.008463541666666666,
+      "exact_min": 0.005859375,
+      "exact_max": 0.009765625,
+      "paired_mean": 0.0
+    }
+  ],
+  "comparisons": {
+    "A": {
+      "comparison": [
+        "gru",
+        "transformer"
+      ],
+      "seeds": [
+        {
+          "seed": 11,
+          "paired_clusters": 300,
+          "model_a_score": 0.6633333333333333,
+          "model_b_score": 0.96,
+          "difference_a_minus_b": -0.2966666666666667,
+          "percentile_95_interval": [
+            -0.35,
+            -0.24666666666666667
+          ],
+          "resamples": 2000,
+          "decision": "B_GREATER_THAN_5PP"
+        },
+        {
+          "seed": 23,
+          "paired_clusters": 300,
+          "model_a_score": 0.6633333333333333,
+          "model_b_score": 0.9766666666666667,
+          "difference_a_minus_b": -0.31333333333333335,
+          "percentile_95_interval": [
+            -0.36333333333333334,
+            -0.2633333333333333
+          ],
+          "resamples": 2000,
+          "decision": "B_GREATER_THAN_5PP"
+        },
+        {
+          "seed": 47,
+          "paired_clusters": 300,
+          "model_a_score": 0.6566666666666666,
+          "model_b_score": 0.96,
+          "difference_a_minus_b": -0.30333333333333334,
+          "percentile_95_interval": [
+            -0.3566666666666667,
+            -0.25
+          ],
+          "resamples": 2000,
+          "decision": "B_GREATER_THAN_5PP"
+        }
+      ],
+      "coverage": 3,
+      "cross_seed_mean_difference": -0.30444444444444446,
+      "cross_seed_std_difference": 0.008388704928078609,
+      "cross_seed_worst_difference": -0.31333333333333335
+    },
+    "B1": {
+      "comparison": [
+        "coupled",
+        "separate"
+      ],
+      "seeds": [
+        {
+          "seed": 11,
+          "paired_clusters": 432,
+          "model_a_score": 0.0,
+          "model_b_score": 0.0,
+          "difference_a_minus_b": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        },
+        {
+          "seed": 23,
+          "paired_clusters": 432,
+          "model_a_score": 0.0,
+          "model_b_score": 0.0,
+          "difference_a_minus_b": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        },
+        {
+          "seed": 47,
+          "paired_clusters": 432,
+          "model_a_score": 0.0,
+          "model_b_score": 0.0,
+          "difference_a_minus_b": 0.0,
+          "percentile_95_interval": [
+            0.0,
+            0.0
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        }
+      ],
+      "coverage": 3,
+      "cross_seed_mean_difference": 0.0,
+      "cross_seed_std_difference": 0.0,
+      "cross_seed_worst_difference": 0.0
+    },
+    "B2": {
+      "comparison": [
+        "gru",
+        "transformer"
+      ],
+      "seeds": [
+        {
+          "seed": 11,
+          "paired_clusters": 384,
+          "model_a_score": 0.0078125,
+          "model_b_score": 0.005859375,
+          "difference_a_minus_b": 0.001953125,
+          "percentile_95_interval": [
+            -0.0032552083333333335,
+            0.007161458333333333
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        },
+        {
+          "seed": 23,
+          "paired_clusters": 384,
+          "model_a_score": 0.0078125,
+          "model_b_score": 0.009765625,
+          "difference_a_minus_b": -0.001953125,
+          "percentile_95_interval": [
+            -0.008463541666666666,
+            0.004557291666666667
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        },
+        {
+          "seed": 47,
+          "paired_clusters": 384,
+          "model_a_score": 0.009114583333333334,
+          "model_b_score": 0.009765625,
+          "difference_a_minus_b": -0.0006510416666666666,
+          "percentile_95_interval": [
+            -0.006510416666666667,
+            0.004557291666666667
+          ],
+          "resamples": 2000,
+          "decision": "INCONCLUSIVE"
+        }
+      ],
+      "coverage": 3,
+      "cross_seed_mean_difference": -0.00021701388888888888,
+      "cross_seed_std_difference": 0.001988965145380139,
+      "cross_seed_worst_difference": -0.001953125
+    }
+  },
+  "A_exact_input_text_audit": {
+    "rows": {
+      "train": 20000,
+      "validation": 3000,
+      "test": 1200
+    },
+    "unique_input_texts": {
+      "train": 705,
+      "validation": 468,
+      "test": 165
+    },
+    "train_validation_exact_input_overlap": 460,
+    "train_test_exact_input_overlap": 0,
+    "validation_test_exact_input_overlap": 0
+  },
+  "B1_none_target": {
+    "count": 144,
+    "rows": 864,
+    "proportion": 0.16666666666666666
+  },
+  "B1_none_predictions_by_run": {
+    "B1-coupled-s11": 852,
+    "B1-separate-s11": 852,
+    "B1-transformer-s11": 862,
+    "B1-coupled-s23": 864,
+    "B1-separate-s23": 864,
+    "B1-transformer-s23": 864,
+    "B1-coupled-s47": 864,
+    "B1-separate-s47": 864,
+    "B1-transformer-s47": 864
+  },
+  "B2_majority_constant": {
+    "count": 23,
+    "rows": 1536,
+    "proportion": 0.014973958333333334
+  },
+  "original_v11_completed": 26,
+  "original_v11_partial_timeout": 4,
+  "posthoc_completed": 4,
+  "combined_runs": 30,
+  "posthoc_run_ids": [
+    "B1-coupled-s11",
+    "B1-separate-s11",
+    "B1-coupled-s23",
+    "B1-separate-s23"
+  ],
+  "prediction_reuse": {
+    "A": {
+      "runs": 12,
+      "same_cluster_ids_all_models_and_seeds": true,
+      "rows_per_run": 1200,
+      "clusters_per_run": 600
+    },
+    "B1": {
+      "runs": 9,
+      "same_cluster_ids_all_models_and_seeds": true,
+      "rows_per_run": 864,
+      "clusters_per_run": 432
+    },
+    "B2": {
+      "runs": 9,
+      "same_cluster_ids_all_models_and_seeds": true,
+      "rows_per_run": 1536,
+      "clusters_per_run": 384
+    }
+  },
+  "local_audit": {
+    "passed": true,
+    "prediction_rows": 36000,
+    "hashed_small_result_and_prediction_files": 60,
+    "bootstrap_comparisons_match_saved": true,
+    "new_model_execution": false,
+    "new_gpu_tests": false,
+    "raw_weight_bytes_read": false
+  },
+  "limits": [
+    "Counts are repeated measurements, not independent samples.",
+    "A exact inputs repeat within splits; validation overlaps training.",
+    "Bootstrap is conditional on recorded pair IDs, not deduplicated text families.",
+    "Four B1 continuations happened after original sealed tests.",
+    "B1 all-pair score zero does not prove mechanisms equivalent.",
+    "B2 test operation counts are even while training/validation include odd counts.",
+    "Local source files and private archives are not included."
+  ],
+  "source_fingerprints": [
+    {
+      "path": "architecture-memory-microscope/results/final-review-20261024/acceptance-review.json",
+      "bytes": 3917,
+      "sha256": "159f2fe0ee04b663f1a4f06d89140cab499131b76e452c5319a66a4d4e9a09a1"
+    },
+    {
+      "path": "architecture-memory-microscope-bcd-20261026/results/final.json",
+      "bytes": 1392,
+      "sha256": "edd05ef091a2bd6ab42763685445fb2a9e69d622471eade9ff3d6e6ee1c81cec"
+    },
+    {
+      "path": "architecture-memory-microscope-bcd-20261026/results/independent-metrics-audit.json",
+      "bytes": 15235,
+      "sha256": "3e553ae30347511d23f723d093a25a90aa2544c827de81a85dab5eb2133dc058"
+    },
+    {
+      "path": "architecture-memory-microscope-b2-followon-20261026/results/final.json",
+      "bytes": 947,
+      "sha256": "5815c54fcb2e77ff9b7669fc7c0dd98746ff186a5c00b390eac37a0a956aa60a"
+    },
+    {
+      "path": "architecture-memory-microscope-b2-recovery-20261026/results/final.json",
+      "bytes": 514,
+      "sha256": "dfb32db997a6d2c949553d32a64c7cce273e1cfd7bd5adcce401a58913c0f5b8"
+    },
+    {
+      "path": "architecture-memory-microscope-b2-recovery-20261026/results/independent-metrics-audit.json",
+      "bytes": 7124,
+      "sha256": "2c3433e70ac37c3db2b8bb4dba6ddce2f2ceadcdb2482dd78e464b05fd118e04"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-20261026/protocol.lock.json",
+      "bytes": 3274,
+      "sha256": "796e72fa164695bfc464ba851434be9ffab9e644323851cb11a914666896b3df"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-20261026/manifests/independent-data-audit.json",
+      "bytes": 1621,
+      "sha256": "1547a29c0cbd75c20eedc5ebf404b998baac0848faa649ebc4790e409781c0de"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-completion-20261027/combined-results/completion-verification.json",
+      "bytes": 335,
+      "sha256": "2ee6927252fe8484a481284a6fc73b5613aba474650311bbe069fd84f845cac6"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-completion-20261027/combined-results/lineage.json",
+      "bytes": 8302,
+      "sha256": "a23cad9a6f9acf3e3774b04d3108c083ad45b7396814826739da293bb5958d1e"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-completion-20261027/combined-results/reports/independent-metrics-audit.json",
+      "bytes": 11233,
+      "sha256": "134f15f299b3ba9718e1b005bb474cbf056844a0f5d07d0fc01aa4f1a973cc76"
+    },
+    {
+      "path": "architecture-memory-microscope-v11-report-20261027/report-stats.json",
+      "bytes": 10246,
+      "sha256": "ca9855f7a599e30bb57a0b03fd052d776c7dbed7d938671148881f99d2a5dee7"
+    }
+  ]
+}
