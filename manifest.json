@@ -143,18 +143,18 @@
     },
     {
       "path": "docs/experiments/microscope-20261027/figures/c1-c2.svg",
-      "bytes": 9016,
-      "sha256": "d9adf2621d095ca118e510e160f4e1292e1a1110b48c63cfcbd4419ddbc946a8"
+      "bytes": 8909,
+      "sha256": "30ab01107292db75802c91a74fe969b8b25936fe9452f3fac5ce52c348f7634d"
     },
     {
       "path": "docs/experiments/microscope-20261027/figures/d-depth.svg",
-      "bytes": 5463,
-      "sha256": "2c02d7a4ff8ccf1cd578970f2e36af83030c490e085580a6a6dae0c1a58df057"
+      "bytes": 5386,
+      "sha256": "1e9e309753573b729eaf14eafa1e292a2ef6e44218ed08949e0310f2023a2126"
     },
     {
       "path": "docs/experiments/microscope-20261027/figures/e-swd.svg",
-      "bytes": 6626,
-      "sha256": "0728d8b8069cf5df03bb9bc051a1b547cb612b62f217864f3302a0414095b736"
+      "bytes": 6535,
+      "sha256": "ca1825cf954caf560ad77615a188b11a7acafa584f05efd992715c85f63265c7"
     },
     {
       "path": "docs/experiments/microscope-20261027/methods-and-limits.md",
