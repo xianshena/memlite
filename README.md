@@ -2,6 +2,8 @@
 
 # MemLite: Reproducible Memory-Conditioned Decision Learning
 
+**[中文时间线与文档目录](docs/TIMELINE.zh-CN.md)**
+
 [中文](README.zh-CN.md) · [Results and limitations](docs/RESULTS.md) · [Reproduction](docs/REPRODUCING.md) · [Licenses](docs/RIGHTS_AND_LICENSES.md)
 
 A learning-driven experiment in how explicit personal experience changes choices
@@ -82,3 +84,4 @@ application documents, credentials or company assets are included.
 
 Own code: [MIT](LICENSE). Synthetic data and numerical records: [separate scope notice](DATA_LICENSE.md).
 Dependencies retain [their own licenses](THIRD_PARTY_NOTICES.md).
+

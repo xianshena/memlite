@@ -33,13 +33,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4354,
-      "sha256": "2d4f45d979fd636994e30b488e87b5971f760c4cfc59022ef1296ef4e4fdb892"
+      "bytes": 4417,
+      "sha256": "65a1f93c4a30cd8125d5f8dd4151f8d8d89c570b5fd99a06ee34d0dd0d0b38f3"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 3214,
-      "sha256": "aa18d87dd0c64aa2b34c000195fb60ea273395be19e6fd04bfee9538aa85f9a5"
+      "bytes": 3277,
+      "sha256": "2da194740fe2ebde834bd5a92e272abe27a7f6e5909e4ef133a1e37087e27a2c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/EXPERIMENTS.zh-CN.md",
-      "bytes": 6416,
-      "sha256": "67053a0fa5d7ec02d26f85116adae75a556fbd7c1a1c6fd752fffb6d1c2d44a4"
+      "bytes": 6461,
+      "sha256": "78bfb4e979537e4e74bb3df91970bf1326b9c4321f3f1956b92a20a82534e743"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -105,6 +105,11 @@
       "path": "docs/RIGHTS_AND_LICENSES.md",
       "bytes": 968,
       "sha256": "62ed4d22500d1fbeb03dccf6a4c9e1931aa615afb1f6e0e454a6eee93a0f0dc3"
+    },
+    {
+      "path": "docs/TIMELINE.zh-CN.md",
+      "bytes": 6860,
+      "sha256": "cd53a8ef6a114bcf435d8e1487e1a6c881bc14f86a59ee9813da2db4bd96eb75"
     },
     {
       "path": "docs/experiments/microscope-20261027/README.zh-CN.md",
@@ -432,5 +437,5 @@
     "SHA256SUMS.txt"
   ],
   "new_neural_training": false,
-  "documentation_update": "2026-10-27; source and historical records unchanged"
+  "documentation_update": "2026-10-28; public-document timeline and navigation only"
 }

@@ -1,5 +1,7 @@
 # 中文实验总索引
 
+[按时间线找文档](TIMELINE.zh-CN.md)
+
 [仓库首页](../README.zh-CN.md) · [已公开的结果与限制](RESULTS.md)
 
 这是已核实实验的阅读目录。最新材料截至2026年10月27日。本次新增的是文档与脱敏统计，
@@ -56,3 +58,4 @@ python -m scripts.audit_recorded_results
 因此不能承诺从本目录一键复跑它。具体本地入口及核验层级见[来源导航](experiments/microscope-20261027/sources.md)。
 
 LifeDynamics保留为来源另有署名的参考材料，不列为用户独立完成的实验，也不随本轮发布其代码或数据。
+
