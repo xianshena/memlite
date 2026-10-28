@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="320" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="320"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-320)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="28" y="292" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(27%,23%,32%); stroke:none;" transform="translate(0,584) scale(1,-1)">E: sliced Wasserstein distance (128 projections)</text>
+			<g transform="">
+				<g transform="">
+					<rect x="100.0" y="71.5" width="370.9469804942794" height="26.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+					<rect x="100.0" y="110.5" width="189.91838426002334" height="26.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+					<rect x="100.0" y="149.5" width="422.87595549367484" height="26.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+					<rect x="100.0" y="188.5" width="113.5331109548768" height="26.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+					<rect x="100.0" y="227.5" width="95.11221344409455" height="26.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 100,65 L 100,260 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 100,65 L 95,65 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 100,104 L 95,104 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 100,143 L 95,143 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 100,182 L 95,182 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 100,221 L 95,221 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 100,260 L 95,260 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,95,84.5)">
+							<text x="-15.279" y="-4.4" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">AR</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,123.5)">
+							<text x="-22.605" y="-4.4" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">VAE</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,162.5)">
+							<text x="-23.826" y="-4.4" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">GAN</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,201.5)">
+							<text x="-31.779000000000003" y="-4.4" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">DDPM</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,240.5)">
+							<text x="-31.163000000000004" y="-4.4" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">FLOW</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 100,65 L 600,65 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 100,65 L 100,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 200,65 L 200,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 300,65 L 300,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 400,65 L 400,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 500,65 L 500,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 600,65 L 600,60 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,100,60)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,200,60)">
+							<text x="-8.75" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.05</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,300,60)">
+							<text x="-6.25" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,400,60)">
+							<text x="-8.75" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.15</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,500,60)">
+							<text x="-6.25" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,600,60)">
+							<text x="-8.75" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.25</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="100" y="38" style="font-family: Times-Roman; font-size: 10px;fill: rgb(43%,41%,47%); stroke:none;" transform="translate(0,76) scale(1,-1)">Lower is closer. Bars show 3-seed means; sample SDs are in the report.</text>
+			<text x="28" y="12" style="font-family: Times-Roman; font-size: 9px;fill: rgb(43%,41%,47%); stroke:none;" transform="translate(0,24) scale(1,-1)">Fixed 720 s training budget; different update counts, sizes and sampling costs.</text>
+		</g>
+	</g>
+</svg>

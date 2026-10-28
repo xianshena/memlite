@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="680" height="340" preserveAspectRatio="xMinYMin meet" viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="680" height="340"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-340)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="28" y="312" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(27%,23%,32%); stroke:none;" transform="translate(0,624) scale(1,-1)">D: depth, residual connections and test MSE</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 88,75 L 623,75 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 119.470588,75 L 119.470588,70 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 213.882353,75 L 213.882353,70 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 591.529412,75 L 591.529412,70 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,119.470588,70)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,213.882353,70)">
+							<text x="-2.5" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">8</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,591.529412,70)">
+							<text x="-5.0" y="-10.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-20) scale(1,-1)">32</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 88,75 L 88,275 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 88,75 L 83,75 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 88,141.666667 L 83,141.666667 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 88,208.333333 L 83,208.333333 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 88,275 L 83,275 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,83,75)">
+							<text x="-8.33" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">-3</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,83,141.666667)">
+							<text x="-8.33" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">-2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,83,208.333333)">
+							<text x="-8.33" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">-1</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,83,275)">
+							<text x="-5.0" y="-4.0" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<polyline points="119.4706 108.5336, 213.8824 236.1608, 591.5294 264.4959" style="stroke: rgb(65%,40%,55%); stroke-linecap: round; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+					<polyline points="119.4706 108.144, 213.8824 104.7654, 591.5294 104.7601" style="stroke: rgb(43%,39%,64%); stroke-linecap: round; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="28" y="284" style="font-family: Times-Roman; font-size: 10px;fill: rgb(43%,41%,47%); stroke:none;" transform="translate(0,568) scale(1,-1)">log10(MSE)</text>
+			<text x="566" y="51" style="font-family: Times-Roman; font-size: 10px;fill: rgb(43%,41%,47%); stroke:none;" transform="translate(0,102) scale(1,-1)">Depth</text>
+			<g transform="">
+				<rect x="133.0" y="32" width="10.0" height="10" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(65%,40%,55%); fill-rule: evenodd;"/>
+				<text x="88" y="33.585" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,67) scale(1,-1)">Plain</text>
+				<rect x="263.0" y="32" width="10.0" height="10" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(43%,39%,64%); fill-rule: evenodd;"/>
+				<text x="218" y="33.585" style="font-family: Times-Roman; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,67) scale(1,-1)">Residual</text>
+			</g>
+			<text x="28" y="12" style="font-family: Times-Roman; font-size: 9px;fill: rgb(43%,41%,47%); stroke:none;" transform="translate(0,24) scale(1,-1)">Mean of 3 seeds; 1,000 shared test inputs; 16 output coordinates per input.</text>
+		</g>
+	</g>
+</svg>

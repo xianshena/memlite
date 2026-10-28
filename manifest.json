@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/EXPERIMENTS.zh-CN.md",
-      "bytes": 6461,
-      "sha256": "78bfb4e979537e4e74bb3df91970bf1326b9c4321f3f1956b92a20a82534e743"
+      "bytes": 6916,
+      "sha256": "aa809d8e07ad2c436c8c3e8cdad21ea4c044693536a60c6d3ff477babdc49e97"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -108,13 +108,53 @@
     },
     {
       "path": "docs/TIMELINE.zh-CN.md",
-      "bytes": 6860,
-      "sha256": "cd53a8ef6a114bcf435d8e1487e1a6c881bc14f86a59ee9813da2db4bd96eb75"
+      "bytes": 7481,
+      "sha256": "1e97daadf5a1595c462633b6447d34089d1704b63c39703037f1a808d427c595"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/C-visual-and-graph.zh-CN.md",
+      "bytes": 6442,
+      "sha256": "584bc37156ab27de800ed009481047a401b492652a5a7045020641b1d00a03c3"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/D-depth-and-ode.zh-CN.md",
+      "bytes": 4379,
+      "sha256": "6b931711c54476de16d66bc15b87d7fd0b86f2f624d66705a8dc02ae17d4086c"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/E-generative.zh-CN.md",
+      "bytes": 5254,
+      "sha256": "7315be9ba6a318a168bb21d101ce19adae5afb6e2dfd7bfa306005a7f97bd026"
     },
     {
       "path": "docs/experiments/microscope-20261027/README.zh-CN.md",
-      "bytes": 5315,
-      "sha256": "3b8b20f03de4c6afca5c73de1dbb1075956dd6f3017800a9e8883b328e6d8b48"
+      "bytes": 5710,
+      "sha256": "508d169ebb8226e98ec46f18d525127650ef491b43ecd0c55988fe8123e42079"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/cde-runs.csv",
+      "bytes": 5933,
+      "sha256": "97a6f910252579d867da230023b81184d9975ecab6720884159bb754f601e627"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/cde-summary.json",
+      "bytes": 84712,
+      "sha256": "cd62a3b643879a8fa1c30301e884da2bbc5fbc9fc4c415fbe4c34545e1a533c7"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/figures/c1-c2.svg",
+      "bytes": 9016,
+      "sha256": "d9adf2621d095ca118e510e160f4e1292e1a1110b48c63cfcbd4419ddbc946a8"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/figures/d-depth.svg",
+      "bytes": 5463,
+      "sha256": "2c02d7a4ff8ccf1cd578970f2e36af83030c490e085580a6a6dae0c1a58df057"
+    },
+    {
+      "path": "docs/experiments/microscope-20261027/figures/e-swd.svg",
+      "bytes": 6626,
+      "sha256": "0728d8b8069cf5df03bb9bc051a1b547cb612b62f217864f3302a0414095b736"
     },
     {
       "path": "docs/experiments/microscope-20261027/methods-and-limits.md",
@@ -123,8 +163,8 @@
     },
     {
       "path": "docs/experiments/microscope-20261027/sources.md",
-      "bytes": 3184,
-      "sha256": "b636452534101d8fc29e950de81abd65277559c9b6648e6c51a19e73c32c2c94"
+      "bytes": 4631,
+      "sha256": "7a53c62a128646e849796413ddc7fe9041e44792a97774b4ec6d301ea1a226ef"
     },
     {
       "path": "docs/experiments/microscope-20261027/stages.md",
@@ -437,5 +477,5 @@
     "SHA256SUMS.txt"
   ],
   "new_neural_training": false,
-  "documentation_update": "2026-10-28; public-document timeline and navigation only"
+  "documentation_update": "2026-10-28; sanitized C/D/E readings and statistics from existing experiments; no model execution"
 }

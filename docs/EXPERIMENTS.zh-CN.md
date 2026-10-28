@@ -4,7 +4,7 @@
 
 [仓库首页](../README.zh-CN.md) · [已公开的结果与限制](RESULTS.md)
 
-这是已核实实验的阅读目录。最新材料截至2026年10月27日。本次新增的是文档与脱敏统计，
+这是已核实实验的阅读目录。最新文档整理截至2026年10月28日，实验发生日按各阶段原记录。本次新增的是文档与脱敏统计，
 没有重新训练、GPU推理或权重加载。旧文件保留；私人学习包、原始数据包、权重和运维脚本不在这里发布。
 “训练完成”“文件核验通过”“模型能力达到标准”分别描述不同的事情。
 
@@ -21,6 +21,11 @@ B1/B2没有提供可靠能力成功证据，重复输入、超时、旧版本缺
 [方法与统计边界](experiments/microscope-20261027/methods-and-limits.md) →
 [来源及复现导航](experiments/microscope-20261027/sources.md)。
 数值见[JSON](experiments/microscope-20261027/summary.json)和[CSV](experiments/microscope-20261027/summary.csv)。
+
+## C / D / E 分模块阅读
+
+[C：像素与图结构](experiments/microscope-20261027/C-visual-and-graph.zh-CN.md) · [D：深度与数值积分](experiments/microscope-20261027/D-depth-and-ode.zh-CN.md) · [E：五类生成目标](experiments/microscope-20261027/E-generative.zh-CN.md)。
+已有记录整理，不是新增训练；原始代码、输入、逐条预测和权重仍不随本次文档发布。
 
 ## 历次实验地图
 

@@ -36,3 +36,16 @@
 这些链接是旧阶段的真实公开代码，不能充当新显微镜源码。
 
 没有发布的材料不造URL，不把私人Library包或机器绝对路径作为公共复现承诺。
+
+## 2026-10-28 补充：C / D / E
+
+公开阅读页：[C](C-visual-and-graph.zh-CN.md)、[D](D-depth-and-ode.zh-CN.md)、[E](E-generative.zh-CN.md)。
+对应 [cde-summary.json](cde-summary.json) 的 `sources` 仅保存相对证据键、字节数及 SHA256，不是下载链接。
+`scope=BCD` 指 BCD 补跑来源，`scope=v1` 指最初 v1 来源；不披露机器绝对目录、账号或私人库入口。
+
+- C/D：源 `results/runs/<run>/config.json`、`result.json` 和 `predictions.jsonl.gz`；36 组、54,000 行保存输出本次重新评分一致。C2 重编号另核 9 组各 256 条，它们仍取自同一测试前缀。
+- C/D 数据合同：源 `results/data/<task>-<split>.npz`、`data.py`、`models.py`、`worker.py`、冻结协议及原主批次汇总。公开 JSON 保留形状、行数和哈希，不复制数组或源代码。
+- D 梯度：已有 `gradient-depth.json`；数值积分：v1 已有 `results/reports/ode-reference.json`。只读记录，未执行积分或模型。
+- E：v1 15 组配置、结果及 `results/final-review-20261024/metrics-audit/audit.json`。原审计仍有 90 项未独立验证指标；本次核对主指标与原审计摘要一致，不声称全量重采样或权重回放。
+
+这些摘要提供可追溯的数字与解释，不能代替完整环境、冻结输入和原始生成样本。源码、原预测包及大权重仍未在本仓库发布；旧阶段未授权代码不随本次文档上传。

@@ -75,3 +75,9 @@
 本轮整理前仓库有15份Markdown，未包含Word或PDF文件。此前学习手册、私人完整归档或未发布原始材料，
 不能从这些公开文档推断为已经上传；本页不为它们编造公开下载链接，也不补传它们。
 其他访问范围的资料不并入此公开目录。原文件、结果和历史提交均保留，本轮没有训练或修改模型代码。
+
+## 2026-10-28：C / D / E 阅读文档补充
+
+这是文档整理日，不是新增实验或训练日期。C1/C2/D 来自 10 月 26 日 BCD 补跑；E 与已保存 Euler/RK4 数值参考来自 v1。
+阅读 [C：视觉与图](experiments/microscope-20261027/C-visual-and-graph.zh-CN.md)、[D：深度与积分](experiments/microscope-20261027/D-depth-and-ode.zh-CN.md)、[E：生成模型](experiments/microscope-20261027/E-generative.zh-CN.md)。
+实际配置、样本分母、重复测量、失败边界及不能独立复核的项目均在各页保留，不把旧 51 项队列或后续 30 组解释为全协议通过。
